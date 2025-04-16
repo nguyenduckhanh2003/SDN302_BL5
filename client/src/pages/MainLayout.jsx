@@ -27,6 +27,7 @@ import MainHeader from "../components/MainHeader";
 import SubMenu from "../components/SubMenu";
 import Footer from "../components/Footer";
 import Product from "../components/Product";
+import { getProducts } from "../apis/product/product";
 
 // Dữ liệu mẫu cho banner quảng cáo
 const BANNER_SLIDES = [
@@ -176,6 +177,7 @@ const MainPage = () => {
   const categoriesRef = useRef(null);
   const filtersRef = useRef(null);
   const intervalRef = useRef(null); // Thêm ref để quản lý interval của banner
+  const [data, setData] = useState([]);
 
   // Fetch dữ liệu từ API
   useEffect(() => {
@@ -206,7 +208,17 @@ const MainPage = () => {
     };
 
     fetchData();
+    fetchProduct();
   }, []);
+
+  const fetchProduct = async () => {
+    try {
+      const response = await getProducts();
+      setData(response.data);
+    } catch (error) {
+      console.error("Error fetching products:", error);
+    }
+  };
 
   // Hàm khởi tạo interval cho banner
   const startAutoSlide = () => {
@@ -568,7 +580,20 @@ const MainPage = () => {
           </div>
 
           {/* Sản phẩm */}
+
           <div className="mb-12">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-2xl font-bold">All Products</h2>
+              <div className="text-sm text-gray-500">{data.length} results</div>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-8">
+              {data.map((product) => (
+                <Product key={product.id} product={product} />
+              ))}
+            </div>
+          </div>
+
+          {/* <div className="mb-12">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-bold">
                 {selectedCategory
@@ -695,7 +720,6 @@ const MainPage = () => {
               </div>
             )}
 
-            {/* Phân trang */}
             {totalPages > 1 && (
               <div className="flex justify-center items-center gap-2 py-8">
                 <button
@@ -764,7 +788,7 @@ const MainPage = () => {
                 </button>
               </div>
             )}
-          </div>
+          </div> */}
 
           {/* Bộ lọc và Sắp xếp */}
           <div

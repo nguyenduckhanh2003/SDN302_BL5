@@ -10,7 +10,7 @@ const http = require('http');
 const server = http.createServer(app);
 app.use(cors(
   {
-    origin: 'http://localhost:5173',
+    origin: 'http://localhost:3000',
     credentials: true,
     methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization', 'Content-Disposition'],
@@ -20,7 +20,6 @@ app.use(cors(
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
-app.use(cookieParser());
 
 connectDB();
 initRoutes(app);

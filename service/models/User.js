@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const jwt = require('jsonwebtoken');
 
 const addressSchema = new mongoose.Schema({
     street: String,
@@ -15,5 +16,11 @@ const userSchema = new mongoose.Schema({
     role: { type: String, enum: ['seller', 'admin', 'buyer'] },
     action: { type: String, enum: ['lock', 'unlock'] }
 });
+
+userSchema.methods.SignAccessToken = function () {
+    return jwt.sign({ id: this._id }, process.env.ACCESS_TOKEN_SECRET, {
+        expiresIn: "2h"
+    });
+};
 
 module.exports = mongoose.model('User', userSchema);

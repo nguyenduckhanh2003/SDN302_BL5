@@ -145,8 +145,8 @@ export default function TopMenu() {
                         </li>
                     )}
                     <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
-                        <Link to="/sell" className="flex items-center gap-2">
-                            Sell
+                        <Link to="/manager-sell" className="flex items-center gap-2">
+                            Manager Sell
                         </Link>
                     </li>
                     <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">

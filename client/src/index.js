@@ -25,6 +25,7 @@ import HelpContact from './pages/help/page';
 import { Provider } from 'react-redux';
 import { persistor, store } from './redux/store';
 import { PersistGate } from "redux-persist/integration/react";
+import SellManager from './pages/seller-manager/page';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -52,6 +53,7 @@ root.render(
             <Route path="/auction-product" element={<AuctionProductDetail />} />
             <Route path="/daily-deals" element={<DailyDeals />} />
             <Route path="/help" element={<HelpContact />} />
+            <Route path="/manager-sell" element={<SellManager />} />
 
           </Routes>
         </PersistGate>

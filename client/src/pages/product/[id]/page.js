@@ -20,6 +20,7 @@ import MainHeader from "../../../components/MainHeader";
 import SubMenu from "../../../components/SubMenu";
 import Footer from "../../../components/Footer";
 import SimilarProducts from "../../../components/SimilarProducts";
+import ContactSellerModal from "./ContactSellerModal";
 
 // Import components
 
@@ -41,7 +42,7 @@ export default function ProductDetail() {
   const [showPayment, setShowPayment] = useState(false);
   const [showReturns, setShowReturns] = useState(false);
   const currentUser = JSON.parse(localStorage.getItem("currentUser"));
-
+  const [showContactModal, setShowContactModal] = useState(false);
   // Mock additional images for the product
   const productImages = [
     { id: 0, url: product?.url || "/placeholder.jpg" },
@@ -347,7 +348,7 @@ export default function ProductDetail() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 relative">
       <TopMenu />
       <MainHeader />
       <SubMenu />
@@ -436,8 +437,11 @@ export default function ProductDetail() {
                       </div>
                     </div>
                   </div>
-                  <button className="ml-auto text-xs text-[#0053A0] hover:underline">
-                    Contact seller
+                  <button 
+                    onClick={() => setShowContactModal(true)}
+                    className="ml-auto text-xs text-[#0053A0] hover:underline"
+                  >
+                  Contact seller
                   </button>
                 </div>
               </div>
@@ -866,9 +870,12 @@ export default function ProductDetail() {
                     </div>
                   </div>
                   <div className="text-right">
-                    <button className="text-xs text-[#0053A0] hover:underline mb-1 block">
-                      Contact seller
-                    </button>
+                  <button 
+                    onClick={() => setShowContactModal(true)}
+                    className="ml-auto text-xs text-[#0053A0] hover:underline"
+                  >
+                  Contact seller
+                  </button>
                     <button className="text-xs text-[#0053A0] hover:underline block">
                       See other items
                     </button>
@@ -899,6 +906,17 @@ export default function ProductDetail() {
       </main>
       
       <Footer />
+      {/* Contact Seller Modal */}
+  <ContactSellerModal 
+    isOpen={showContactModal}
+    onClose={() => setShowContactModal(false)}
+    seller={{
+      username: "seller123",
+      positiveRating: "98.7%", 
+      id: "seller123"
+    }}
+    product={product}
+  />
     </div>
   );
 }

@@ -3,6 +3,10 @@
 import { useState } from "react"
 import { Eye, EyeOff, Mail, Lock, User } from "lucide-react"
 import { useNavigate } from 'react-router-dom'
+import { authLogin } from "../../apis/auth/auth"
+import { useDispatch } from "react-redux";
+import { setUser } from "../../redux/slice/auth/auth.slice";
+import { caseNavigate } from "../../configs/caseNavigate"
 
 export default function AuthPage() {
     const [isLogin, setIsLogin] = useState(true)
@@ -18,6 +22,7 @@ export default function AuthPage() {
     })
     const [error, setError] = useState("")
     const navigate = useNavigate()
+    const dispatch = useDispatch()
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -25,20 +30,10 @@ export default function AuthPage() {
 
         if (isLogin) {
             try {
-                const response = await fetch('http://localhost:9999/user')
-                const users = await response.json()
-                const user = users.find(u => u.email === formData.email && u.password === formData.password)
-                if (user) {
-                    localStorage.setItem('currentUser', JSON.stringify(user))
-                    // Kiểm tra role của user
-                    if (user.role === 'admin') {
-                        navigate('/adminDashboard') // Điều hướng đến trang admin nếu role là admin
-                    } else {
-                        navigate('/') // Điều hướng về trang chính nếu không phải admin
-                    }
-                } else {
-                    setError("Email hoặc mật khẩu không đúng")
-                }
+                const result = await authLogin(formData.email, formData.password);
+                console.log(result);
+                dispatch(setUser(result.user));
+                return navigate(caseNavigate(result.user.role));
             } catch (err) {
                 setError("Không thể kết nối tới server")
                 console.error("Lỗi đăng nhập:", err)

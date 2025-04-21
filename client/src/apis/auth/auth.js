@@ -11,3 +11,12 @@ export const authLogin = async (email, password) => {
         return e;
     }
 };
+
+export const authGetProfile = async () => {
+    try {
+        const response = await axios.get('/auth/profile');
+        return response;
+    } catch (e) {
+        return e;
+    }
+};

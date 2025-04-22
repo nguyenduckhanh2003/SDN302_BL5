@@ -12,6 +12,7 @@ const userSchema = new mongoose.Schema({
     email: { type: String, unique: true },
     password: String,
     fullname: String,
+    avatar: String,
     address: addressSchema,
     role: { type: String, enum: ['seller', 'admin', 'buyer'] },
     action: { type: String, enum: ['lock', 'unlock'] }

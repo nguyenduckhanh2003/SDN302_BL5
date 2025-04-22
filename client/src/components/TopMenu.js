@@ -1,14 +1,18 @@
 import { useState, useEffect } from "react"
 import { ChevronDown, ShoppingCart } from "lucide-react"
 import { Link, useNavigate, useLocation } from 'react-router-dom'
-
+import { useDispatch, useSelector } from "react-redux"
+import { DownOutlined, UserOutlined } from '@ant-design/icons';
+import { Button, Dropdown, message, Space, Tooltip } from 'antd';
+import { setLogout } from "../redux/slice/auth/auth.slice";
 export default function TopMenu() {
     const [isMenu, setIsMenu] = useState(false)
     const [currentUser, setCurrentUser] = useState(null)
     const [cartCount, setCartCount] = useState(0)
     const navigate = useNavigate()
     const location = useLocation()
-
+    const dispatch = useDispatch()
+    const {isAuthenticated,user} = useSelector((state) => state.auth);
     useEffect(() => {
         const user = localStorage.getItem('currentUser')
         if (user) {
@@ -66,6 +70,7 @@ export default function TopMenu() {
     }, [location.pathname, currentUser])
 
     const handleSignOut = () => {
+        dispatch(setLogout())
         localStorage.removeItem('currentUser')
         setCurrentUser(null)
         setCartCount(0)
@@ -78,12 +83,13 @@ export default function TopMenu() {
             <div className="flex items-center justify-between w-full mx-auto max-w-[1200px]">
                 <ul id="TopMenuLeft" className="flex items-center text-[11px] text-[#333333] px-2 h-8">
                     <li className="relative px-3">
-                        {currentUser ? (
+                        {isAuthenticated ? (
+                            
                             <button
                                 onClick={() => setIsMenu(!isMenu)}
                                 className="flex items-center gap-2 hover:underline cursor-pointer"
                             >
-                                <div>Hi, {currentUser.fullname}</div>
+                                <div>Hi, {user.name}</div>
                                 <ChevronDown size={12} />
                             </button>
                         ) : (
@@ -93,7 +99,7 @@ export default function TopMenu() {
                             </Link>
                         )}
 
-                        {currentUser && (
+                        {isAuthenticated && (
                             <div
                                 id="AuthDropdown"
                                 className={`
@@ -104,11 +110,11 @@ export default function TopMenu() {
                                 <div>
                                     <div className="flex items-center justify-start gap-1 p-3">
                                         <img
-                                            src={`https://picsum.photos/id/${currentUser.id}/50`}
+                                            src={`https://picsum.photos/id/${user.id}/50`}
                                             alt="User Avatar"
                                             className="w-[50px] h-[50px] rounded-full"
                                         />
-                                        <div className="font-bold text-[13px]">{currentUser.fullname}</div>
+                                        <div className="font-bold text-[13px]">{user.name}</div>
                                     </div>
                                 </div>
 
@@ -144,11 +150,20 @@ export default function TopMenu() {
                             </Link>
                         </li>
                     )}
-                    <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
-                        <Link to="/sell" className="flex items-center gap-2">
-                            Sell
+                    {user?.role === "seller" && (
+                        <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
+                            <Link to="/manager-conversation-sell" className="flex items-center gap-2 text-blue-400 font-bold">
+                                Seller Chat
+                            </Link>
+                        </li>
+                    )}
+                    {user?.role === "buyer" && (
+                        <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
+                        <Link to="/conversations" className="flex items-center gap-2 text-blue-400 font-bold">
+                            Conversations
                         </Link>
                     </li>
+                    )}
                     <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
                         <Link to="/sell" className="flex items-center gap-2">
                             <img width={32} src="/images/vn.png" alt="UK flag" />

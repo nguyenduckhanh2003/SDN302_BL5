@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
+import { ExclamationCircleOutlined } from '@ant-design/icons';
 import {
   FiHeart,
   FiShoppingCart,
@@ -21,7 +22,9 @@ import SubMenu from "../../../components/SubMenu";
 import Footer from "../../../components/Footer";
 import SimilarProducts from "../../../components/SimilarProducts";
 import { getProductsById } from "../../../apis/product/product";
-
+import ContactSellerModal from "./ContactSellerModal";
+import { useSelector } from "react-redux";
+import { Button, Modal, Space } from 'antd';
 // Import components
 
 
@@ -43,9 +46,24 @@ export default function ProductDetail() {
   const [showPayment, setShowPayment] = useState(false);
   const [showReturns, setShowReturns] = useState(false);
   const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+  const [showContactModal, setShowContactModal] = useState(false);
+  
   const [detail, setDetail] = useState([]);
+  const {isAuthenticated,user} = useSelector((state) => state.auth);
+  const [modal, contextHolder] = Modal.useModal();
 
-  // Mock additional images for the product
+  const confirm = () => {
+    modal.confirm({
+      title: 'Authorization Required',
+      content: 'You need to login to contact the seller.',
+      icon: <ExclamationCircleOutlined />,
+      okText: 'Login',
+      onOk() {
+        navigate("/auth");
+      },
+      cancelText: 'Cancel',
+    });
+  };
   const productImages = [
     { id: 0, url: product?.url || "/placeholder.jpg" },
     { id: 1, url: "https://picsum.photos/id/1/400" },
@@ -74,7 +92,6 @@ export default function ProductDetail() {
     const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
     return wishlist.some(item => item.id === id);
   };
-
   // Fetch product data, cart status, and bid history
   useEffect(() => {
     const fetchProductAndCartStatus = async () => {
@@ -118,7 +135,6 @@ export default function ProductDetail() {
       console.error("Error fetching product details:", error);
     }
   }
-  console.log(detail?.storeId?.seller);
 
 
   // Handle cart actions (add/remove)
@@ -360,18 +376,21 @@ export default function ProductDetail() {
   //     </div>
   //   );
   // }
+  const handleContact = () => {
+    if (!isAuthenticated) {
+      confirm();
+    }else{
+      setShowContactModal(true);
+    }
+  }
 
 
-  //navigate đường dẫn
-  const handleContactClick = () => {
-    navigate(`/contact/${detail?.storeId?.seller}`);
-  };
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 relative">
       <TopMenu />
       <MainHeader />
       <SubMenu />
-
+      {contextHolder}
       <main className="max-w-[1300px] mx-auto px-4 py-4">
         {/* Breadcrumb */}
         <nav className="flex mb-2 text-xs" aria-label="Breadcrumb">
@@ -448,23 +467,19 @@ export default function ProductDetail() {
                 <div className="flex items-center">
                   <div className="text-sm">
                     <p className="font-medium">Seller information</p>
-                    <p className="text-[#0053A0] hover:underline cursor-pointer">seller123 (254)</p>
+                    <p className="text-[#0053A0] hover:underline cursor-pointer">{detail?.storeId?.storeName}</p>
                     <div className="flex items-center text-xs mt-1">
                       <div className="flex items-center text-[#0053A0]">
                         98.7% Positive feedback
                       </div>
                     </div>
                   </div>
-
-                  <div className="ml-auto">
-                    <button
-                      type="button"
-                      onClick={handleContactClick}
-                      className="text-[#0053A0] hover:underline cursor-pointer"
-                    >
-                      Contact seller
-                    </button>
-                  </div>
+                  <button
+                    onClick={() => setShowContactModal(true)}
+                    className="ml-auto text-xs text-[#0053A0] hover:underline"
+                  >
+                    Contact seller
+                  </button>
                 </div>
               </div>
             </div>
@@ -880,21 +895,24 @@ export default function ProductDetail() {
 
               {/* Seller Information (Desktop) */}
               <div className="hidden lg:block mt-4 p-3 bg-gray-50 border border-gray-200">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="font-medium text-sm">Seller information</p>
-                    <p className="text-[#0053A0] hover:underline cursor-pointer text-sm">seller123 (254)</p>
+                <div className="flex flex-column flex-wrap">
+                  <p className="font-medium text-sm mb-3 w-full">Seller information</p>
+                  <div className="flex w-full justify-between items-center">
+                    <p className="text-[#0053A0] hover:underline cursor-pointer text-sm">{detail?.storeId?.storeName}</p>
                     <div className="flex items-center text-xs mt-1">
-                      <div className="flex items-center text-[#0053A0]">
-                        98.7% Positive feedback
-                      </div>
+                      <button
+                        onClick={handleContact}
+                        className="ml-auto text-xs text-[#0053A0] hover:bg-gray-300 p-1 rounded bg-gray-200"
+                      >
+                        Contact seller
+                      </button>
                     </div>
                   </div>
-                  <div className="text-right">
-                    <button className="text-xs text-[#0053A0] hover:underline mb-1 block" onClick={handleContactClick}>
-                      Contact seller
-                    </button>
-                    <button className="text-xs text-[#0053A0] hover:underline block">
+                  <div className="flex w-full justify-between items-center">
+                    <div className="flex items-center text-[#0053A0] text-sm">
+                      98.7% Positive feedback
+                    </div>
+                    <button className="text-xs text-[#0053A0] hover:underline block mt-3">
                       See other items
                     </button>
                   </div>
@@ -924,6 +942,13 @@ export default function ProductDetail() {
       </main>
 
       <Footer />
+      {/* Contact Seller Modal */}
+      <ContactSellerModal
+        isOpen={showContactModal}
+        onClose={() => setShowContactModal(false)}
+        shoppInfo={detail?.storeId}
+        product={detail}
+      />
     </div>
   );
 }

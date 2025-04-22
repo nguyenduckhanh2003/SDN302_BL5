@@ -25,11 +25,12 @@ import HelpContact from './pages/help/page';
 import { Provider } from 'react-redux';
 import { persistor, store } from './redux/store';
 import { PersistGate } from "redux-persist/integration/react";
+import ChatApp from './pages/chat/ChatApp';
+import SellerChat from './pages/seller-manager/page';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
@@ -52,6 +53,8 @@ root.render(
             <Route path="/auction-product" element={<AuctionProductDetail />} />
             <Route path="/daily-deals" element={<DailyDeals />} />
             <Route path="/help" element={<HelpContact />} />
+            <Route path="/manager-conversation-sell" element={<SellerChat />} />
+            <Route path="/conversations" element={<ChatApp />} />
 
           </Routes>
         </PersistGate>
@@ -59,7 +62,6 @@ root.render(
       </Provider>
 
     </BrowserRouter>
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

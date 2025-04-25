@@ -27,7 +27,9 @@ import { persistor, store } from './redux/store';
 import { PersistGate } from "redux-persist/integration/react";
 import ChatApp from './pages/chat/ChatApp';
 import SellerChat from './pages/seller-manager/page';
+import OrderManagement from './pages/seller-manager/OrderManagement';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -55,7 +57,7 @@ root.render(
             <Route path="/help" element={<HelpContact />} />
             <Route path="/manager-conversation-sell" element={<SellerChat />} />
             <Route path="/conversations" element={<ChatApp />} />
-
+            <Route path="/order-management" element={<OrderManagement />} />
           </Routes>
         </PersistGate>
 

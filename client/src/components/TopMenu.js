@@ -29,7 +29,7 @@ export default function TopMenu() {
 
             try {
                 console.log("Fetching cart count for user:", currentUser.id)
-                const response = await fetch(`http://localhost:9999/shoppingCart?userId=${currentUser.id}`)
+                const response = await fetch(`http://localhost:4000/shoppingCart?userId=${currentUser.id}`)
                 if (!response.ok) {
                     throw new Error(`Failed to fetch cart: ${response.status}`)
                 }
@@ -151,11 +151,18 @@ export default function TopMenu() {
                         </li>
                     )}
                     {user?.role === "seller" && (
+                        <>
                         <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
                             <Link to="/manager-conversation-sell" className="flex items-center gap-2 text-blue-400 font-bold">
                                 Seller Chat
                             </Link>
                         </li>
+                         <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
+                         <Link to="/order-management" className="flex items-center gap-2 text-blue-400 font-bold">
+                             Order Management
+                         </Link>
+                     </li>
+                 </>
                     )}
                     {user?.role === "buyer" && (
                         <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">

@@ -14,6 +14,10 @@ const store = configureStore({
     reducer: {
         auth: persistedReducer,
     },
+    middleware: (getDefaultMiddleware) =>
+        getDefaultMiddleware({
+            serializableCheck: false, // ✅ Cho phép non-serializable values từ redux-persist
+        }),
 });
 
 const persistor = persistStore(store);

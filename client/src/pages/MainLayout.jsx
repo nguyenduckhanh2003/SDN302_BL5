@@ -183,11 +183,11 @@ const MainPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const productsResponse = await fetch("http://localhost:9999/products");
+        const productsResponse = await fetch("http://localhost:4000/products");
         const productsData = await productsResponse.json();
 
         const categoriesResponse = await fetch(
-          "http://localhost:9999/categories"
+          "http://localhost:4000/categories"
         );
         const categoriesData = await categoriesResponse.json();
 

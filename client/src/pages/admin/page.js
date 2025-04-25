@@ -42,19 +42,19 @@ const AdminDashboard = () => {
         const fetchData = async () => {
             try {
                 setLoading(true)
-                const usersResponse = await fetch("http://localhost:9999/user")
+                const usersResponse = await fetch("http://localhost:4000/user")
                 const usersData = await usersResponse.json()
                 setUsers(usersData)
-                const ordersResponse = await fetch("http://localhost:9999/orders")
+                const ordersResponse = await fetch("http://localhost:4000/orders")
                 const ordersData = await ordersResponse.json()
                 setOrders(ordersData)
-                const categoriesResponse = await fetch("http://localhost:9999/categories")
+                const categoriesResponse = await fetch("http://localhost:4000/categories")
                 const categoriesData = await categoriesResponse.json()
                 setCategories(categoriesData)
-                const productsResponse = await fetch("http://localhost:9999/products")
+                const productsResponse = await fetch("http://localhost:4000/products")
                 const productsData = await productsResponse.json()
                 setProducts(productsData)
-                const sellerProductsResponse = await fetch("http://localhost:9999/sellerProduct")
+                const sellerProductsResponse = await fetch("http://localhost:4000/sellerProduct")
                 const sellerProductsData = await sellerProductsResponse.json()
                 setSellerProducts(sellerProductsData)
                 setLoading(false)
@@ -95,7 +95,7 @@ const AdminDashboard = () => {
         try {
             if (categoryData.id) {
                 // Sửa danh mục
-                const response = await fetch(`http://localhost:9999/categories/${categoryData.id}`, {
+                const response = await fetch(`http://localhost:4000/categories/${categoryData.id}`, {
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(categoryData),
@@ -107,7 +107,7 @@ const AdminDashboard = () => {
                 }
             } else {
                 // Thêm danh mục mới
-                const response = await fetch("http://localhost:9999/categories", {
+                const response = await fetch("http://localhost:4000/categories", {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ ...categoryData, id: String(Date.now()) }),
@@ -129,7 +129,7 @@ const AdminDashboard = () => {
     // Hàm xử lý xóa danh mục
     const deleteCategory = async (categoryId) => {
         try {
-            const response = await fetch(`http://localhost:9999/categories/${categoryId}`, {
+            const response = await fetch(`http://localhost:4000/categories/${categoryId}`, {
                 method: 'DELETE',
             });
             if (response.ok) {
@@ -169,7 +169,7 @@ const AdminDashboard = () => {
     const toggleUserStatus = async (userId, currentAction) => {
         const newAction = currentAction === "unlock" ? "lock" : "unlock"
         try {
-            const response = await fetch(`http://localhost:9999/user/${userId}`, {
+            const response = await fetch(`http://localhost:4000/user/${userId}`, {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ action: newAction }),
@@ -187,7 +187,7 @@ const AdminDashboard = () => {
 
     const deleteUser = async (userId) => {
         try {
-            const response = await fetch(`http://localhost:9999/user/${userId}`, {
+            const response = await fetch(`http://localhost:4000/user/${userId}`, {
                 method: 'DELETE',
             })
             if (response.ok) {
@@ -204,7 +204,7 @@ const AdminDashboard = () => {
     const addEditUser = async (userData) => {
         try {
             if (userData.id) {
-                const response = await fetch(`http://localhost:9999/user/${userData.id}`, {
+                const response = await fetch(`http://localhost:4000/user/${userData.id}`, {
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(userData),
@@ -215,7 +215,7 @@ const AdminDashboard = () => {
                     setError("Không thể cập nhật tài khoản")
                 }
             } else {
-                const response = await fetch("http://localhost:9999/user", {
+                const response = await fetch("http://localhost:4000/user", {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ ...userData, id: String(Date.now()) }),
@@ -237,7 +237,7 @@ const AdminDashboard = () => {
     const addEditProduct = async (productData) => {
         try {
             if (productData.id) {
-                const response = await fetch(`http://localhost:9999/products/${productData.id}`, {
+                const response = await fetch(`http://localhost:4000/products/${productData.id}`, {
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(productData),
@@ -248,7 +248,7 @@ const AdminDashboard = () => {
                     setError("Không thể cập nhật sản phẩm")
                 }
             } else {
-                const response = await fetch("http://localhost:9999/products", {
+                const response = await fetch("http://localhost:4000/products", {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ ...productData, id: String(Date.now()) }),
@@ -269,7 +269,7 @@ const AdminDashboard = () => {
 
     const deleteProduct = async (productId) => {
         try {
-            const response = await fetch(`http://localhost:9999/products/${productId}`, {
+            const response = await fetch(`http://localhost:4000/products/${productId}`, {
                 method: 'DELETE',
             })
             if (response.ok) {
@@ -285,7 +285,7 @@ const AdminDashboard = () => {
 
     const editOrder = async (orderData) => {
         try {
-            const response = await fetch(`http://localhost:9999/orders/${orderData.order_id}`, {
+            const response = await fetch(`http://localhost:4000/orders/${orderData.order_id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(orderData),
@@ -304,7 +304,7 @@ const AdminDashboard = () => {
 
     const cancelOrder = async (orderId) => {
         try {
-            const response = await fetch(`http://localhost:9999/orders/${orderId}`, {
+            const response = await fetch(`http://localhost:4000/orders/${orderId}`, {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ status: "cancelled" }),

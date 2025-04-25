@@ -39,7 +39,8 @@ const authLogin = async (req, res) => {
             message: "Đăng nhập thành công", user: {
                 _id: user._id,
                 name: user.fullname,
-                role: user.role
+                role: user.role,
+                token: accessToken
             }
         });
     } catch (error) {

@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema({
 
 userSchema.methods.SignAccessToken = function () {
     return jwt.sign({ id: this._id }, process.env.ACCESS_TOKEN_SECRET, {
-        expiresIn: "2h"
+        expiresIn: "24h"
     });
 };
 

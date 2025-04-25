@@ -12,6 +12,7 @@
     "antd": "^5.24.2",
     "autoprefixer": "^10.4.20",
     "axios": "^1.8.4",
+    "crypto-js": "^4.2.0",
     "debounce": "^2.2.0",
     "emoji-picker-react": "^4.12.2",
     "framer-motion": "^12.6.2",

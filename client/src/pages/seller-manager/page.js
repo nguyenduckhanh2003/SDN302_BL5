@@ -14,6 +14,7 @@ import {
   Smile,
   X,
   Check,
+  RefreshCw,
 } from "lucide-react";
 
 import { useSelector } from "react-redux";
@@ -64,11 +65,22 @@ const SellerChat = () => {
   const typingTimeoutRef = useRef(null);
   const activeChatRef = useRef(null);
   const [errorUpload, setErrorUpload] = useState(null);
+  // Thêm vào phần khai báo state
+  const [page, setPage] = useState(1);
+  const [hasMore, setHasMore] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filteredContacts, setFilteredContacts] = useState([]);
+  const [initialLoad, setInitialLoad] = useState(false);
+  const lastLoadedMessageRef = useRef(null);
 
+  // Thêm vào phần khai báo refs
+  const chatContainerRef = useRef(null);
+  const sentinelRef = useRef(null);
   // Khởi tạo socket khi component mount nếu user đã đăng nhập
   useEffect(() => {
     if (user?._id) {
-      const socket = initSocket(user._id);
+      const socket = initSocket(user);
 
       return () => {
         // Xóa các timeout khi unmount
@@ -89,6 +101,8 @@ const SellerChat = () => {
         console.error("Dữ liệu typing không hợp lệ:", data);
         return;
       }
+
+      scrollToBottom(); // Cuộn xuống khi có sự kiện typing
 
       // Cập nhật trạng thái typing
       setTypingUsers((prev) => {
@@ -147,11 +161,11 @@ const SellerChat = () => {
             // Cập nhật tin nhắn mới nhất và thời gian
             updatedContact.message =
               data.message.content ||
-              (data.message.imageUrl ? "Hình ảnh" : "Tin nhắn mới");
+              (data.message.imagesUrl ? "[Hình ảnh]" : "Tin nhắn mới");
             updatedContact.time = formatMessageTime(
               new Date(data.message.timestamp || data.message.createdAt)
             );
-
+            updatedContact.sender = data.message.senderId === user._id ? "me" : "user";
             // Kiểm tra nếu tin nhắn từ người mua (không phải từ người bán hiện tại)
             const isFromBuyer = data.message.senderId !== user._id;
 
@@ -226,14 +240,16 @@ const SellerChat = () => {
 
     // Hàm dọn dẹp khi component unmount
     return () => {
-      unsubscribeMessages();
       unsubscribeReadReceipts();
     };
   }, [user]);
 
   const handleSelectConversation = async (conversationId) => {
     setActiveChat(conversationId);
-
+    setMessages([]);
+    setPage(1);
+    setHasMore(true);
+    setInitialLoad(true); // Đánh dấu đang load lần đầu
     // Tìm thông tin contact được chọn
     const selectedContact = contacts.find((c) => c.id === conversationId);
 
@@ -244,7 +260,11 @@ const SellerChat = () => {
     // YÊU CẦU JOIN VÀO CONVERSATION
     joinConversation(conversationId, user._id);
     // Tải tin nhắn cho cuộc trò chuyện này
-    await fetchMessages(conversationId);
+    await fetchMessages(conversationId, 1, false);
+    // Đợi một chút để UI render xong
+    setTimeout(() => {
+      setInitialLoad(false);
+    }, 500);
     // CHỈ đánh dấu đã đọc nếu có tin nhắn chưa đọc
     if (selectedContact.unread && selectedContact.unreadCount > 0) {
       try {
@@ -286,7 +306,6 @@ const SellerChat = () => {
     // Tạo tin nhắn mới để thêm vào UI
     const messageToAdd = {
       id: newMessage._id,
-      sender: isSeller ? "me" : "user",
       text: newMessage.content || "",
       images: newMessage.imagesUrl ? newMessage.imagesUrl : [],
       time: formattedTime,
@@ -428,7 +447,6 @@ const SellerChat = () => {
     };
   }, [showEmojiPicker]);
 
-  // Load messages when active chat changes
   useEffect(() => {
     if (activeChat) {
       // Mark messages as read when opening a conversation
@@ -437,20 +455,58 @@ const SellerChat = () => {
   }, [activeChat]);
 
   // Scroll to bottom when messages change
-  useEffect(() => {
-    if (messages.length > 0) {
-      requestAnimationFrame(() => {
-        scrollToBottom();
-      });
-    }
-  }, [messages]);
+  // useEffect(() => {
+  //   if (messages.length > 0) {
+  //     requestAnimationFrame(() => {
+  //       scrollToBottom();
+  //     });
+  //   }
+  // }, [messages]);
 
   // Scroll to bottom when first entering a chat
+  // useEffect(() => {
+  //   if (activeChat && messages.length > 0) {
+  //     scrollToBottom();
+  //   }
+  // }, [activeChat]);
+
+  // Thêm useEffect cho Intersection Observer
   useEffect(() => {
-    if (activeChat && messages.length > 0) {
-      scrollToBottom();
+    if (!sentinelRef.current || !hasMore) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && !loadingMore && hasMore) {
+          loadMoreMessages();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(sentinelRef.current);
+
+    return () => {
+      if (sentinelRef.current) {
+        observer.unobserve(sentinelRef.current);
+      }
+    };
+  }, [hasMore, loadingMore, activeChat, initialLoad]);
+
+  useEffect(() => {
+    if (!searchQuery) {
+      console.log("Resetting filtered contacts", searchQuery);
+      setFilteredContacts(contacts);
+      return;
     }
-  }, [activeChat]);
+
+    const filtered = contacts.filter(
+      (contact) =>
+        contact.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        contact.message.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
+    setFilteredContacts(filtered);
+  }, [searchQuery, contacts]);
 
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
@@ -503,9 +559,10 @@ const SellerChat = () => {
             name: userSend?.fullname || "User",
             message: lastMsg
               ? lastMsg.content ||
-                (lastMsg.imageUrl ? "Hình ảnh" : "Tin nhắn mới")
+                (lastMsg.imagesUrl ? "[Hình ảnh]" : "Tin nhắn mới")
               : "",
-            time: lastMsg ? formatMessageTime(new Date(lastMsg.timestamp)) : "",
+            sender: lastMsg?.senderId=== user._id ? "me" : "user",
+            time: lastMsg ? formatMessageTime(new Date(lastMsg.createdAt)) : "",
             unread: isUnread, // Sử dụng unreadCount từ API
             unreadCount: conv.unreadCount || 0, // Đảm bảo luôn có giá trị, mặc định là 0
             avatar:
@@ -526,13 +583,26 @@ const SellerChat = () => {
   };
 
   // Fetch messages for a specific conversation
-  const fetchMessages = async (conversationId) => {
+  const fetchMessages = async (
+    conversationId,
+    requestedPage = 1,
+    append = false
+  ) => {
     try {
-      setLoading(true);
-      const response = await getConversationHistory(conversationId);
+      if (!append) {
+        setLoading(true);
+      }
 
+      const response = await getConversationHistory(
+        conversationId,
+        requestedPage
+      );
       if (response.success) {
         const conversation = response.data.conversation;
+        const pagination = response.data.pagination;
+
+        // Update hasMore based on pagination
+        setHasMore(pagination?.hasNextPage || false);
 
         // Xác định ID của người bán/shop (user hiện tại)
         const sellerId = user._id;
@@ -543,67 +613,102 @@ const SellerChat = () => {
         // Biến để theo dõi sản phẩm hiện tại trong cuộc thảo luận
         let currentProductId = null;
 
-        // Xử lý tin nhắn theo ngày
-        response.data.messagesByDate.forEach((dayGroup) => {
-          // Thêm phân cách ngày
-          formattedMessages.push({
-            id: `date-${dayGroup.date}`,
-            type: "system",
-            displayText: dayGroup.displayText,
-            timestamp: new Date(dayGroup.date),
-          });
-
-          // Xử lý từng tin nhắn trong ngày
-          dayGroup.messages.forEach((msg) => {
-            // Kiểm tra nếu tin nhắn có tham chiếu đến sản phẩm mới
-            if (
-              msg.productRef &&
-              msg.productRef.productId &&
-              currentProductId !== msg.productRef.productId
-            ) {
-              // Cập nhật sản phẩm hiện tại
-              currentProductId = msg.productRef.productId;
-
-              // Thêm banner sản phẩm mới vào cuộc hội thoại
-              formattedMessages.push({
-                id: `product-banner-${currentProductId}-${msg._id}`,
-                type: "product-banner",
-                productRef: msg.productRef,
-              });
-            }
-
-            // Xác định người gửi
-            const isSeller = msg.senderId._id === sellerId;
-            // Định dạng thời gian - luôn hiển thị giờ:phút
-            const messageTime = new Date(msg.timestamp || msg.createdAt);
-            const formattedTime = messageTime.toLocaleTimeString("vi-VN", {
-              hour: "2-digit",
-              minute: "2-digit",
-            });
-            // Thêm tin nhắn vào danh sách
+        // Xử lý tin nhắn theo ngày từ định dạng messagesByDate mới (là object)
+        if (response?.data?.messagesByDate) {
+          Object.keys(response.data.messagesByDate).forEach((date) => {
+            const messagesForDate = response.data.messagesByDate[date];
+            // Thêm phân cách ngày
             formattedMessages.push({
-              id: msg._id,
-              sender: isSeller ? "me" : "user",
-              text: msg.content || "",
-              images: msg.imagesUrl ? msg.imagesUrl : [],
-              time: formattedTime,
-              status: msg.status,
-              productRef: msg.productRef,
-              senderAvatar: msg.senderId.avatar,
+              id: `date-${date}-${requestedPage}`,
+              type: "system",
+              displayText: messagesForDate.displayText,
+              timestamp: new Date(messagesForDate.date || Date.now()),
+            });
+
+            // Xử lý từng tin nhắn trong ngày
+            messagesForDate?.messages.forEach((msg) => {
+              // Kiểm tra nếu tin nhắn có tham chiếu đến sản phẩm mới
+              if (
+                msg.productRef &&
+                msg.productRef.productId &&
+                currentProductId !== msg.productRef.productId
+              ) {
+                // Cập nhật sản phẩm hiện tại
+                currentProductId = msg.productRef.productId;
+
+                // Thêm banner sản phẩm mới vào cuộc hội thoại
+                formattedMessages.push({
+                  id: `product-banner-${currentProductId}-${msg._id}`,
+                  type: "product-banner",
+                  productRef: msg.productRef,
+                });
+              }
+
+              // Xác định người gửi
+              const isSeller =
+                typeof msg.senderId === "object"
+                  ? msg.senderId._id === sellerId
+                  : msg.senderId === sellerId;
+
+              // Định dạng thời gian - luôn hiển thị giờ:phút
+              const messageTime = new Date(msg.createdAt);
+              const formattedTime = messageTime.toLocaleTimeString("vi-VN", {
+                hour: "2-digit",
+                minute: "2-digit",
+              });
+
+              // Thêm tin nhắn vào danh sách
+              formattedMessages.push({
+                id: msg._id,
+                sender: isSeller ? "me" : "user",
+                text: msg.content || "",
+                images: msg.imagesUrl || [],
+                time: formattedTime,
+                status: msg.status || "sent",
+                productRef: msg.productRef,
+                senderAvatar:
+                  typeof msg.senderId === "object" ? msg.senderId.avatar : null,
+              });
             });
           });
-        });
+        }
 
-        setMessages(formattedMessages);
+        if (append) {
+          // Cho phân trang, thêm tin nhắn cũ ở đầu danh sách
+          setMessages((prev) => [...formattedMessages, ...prev]);
+
+          // Giữ vị trí cuộn sau khi tải thêm
+          const chatContainer = chatContainerRef.current;
+          if (chatContainer) {
+            const scrollHeight = chatContainer.scrollHeight;
+
+            requestAnimationFrame(() => {
+              const newScrollHeight = chatContainer.scrollHeight;
+              chatContainer.scrollTop = newScrollHeight - scrollHeight;
+            });
+          }
+        } else {
+          // Khi tải lần đầu, thay thế tất cả tin nhắn
+          setMessages(formattedMessages);
+
+          // Cuộn xuống dưới khi tải lần đầu
+          setTimeout(() => {
+            scrollToBottom();
+          }, 100);
+        }
       }
     } catch (err) {
       console.error("Error fetching messages:", err);
       setError("Không thể tải tin nhắn");
+      setHasMore(false);
     } finally {
-      setLoading(false);
+      if (!append) {
+        setLoading(false);
+      } else {
+        setLoadingMore(false);
+      }
     }
   };
-
   // Mark messages as read
   const markMessagesAsRead = async (conversationId) => {
     try {
@@ -759,7 +864,7 @@ const SellerChat = () => {
             temporary: true,
           });
         }
-        console.log(selectedImages);
+
         if (selectedImages.length > 0) {
           optimisticMessages.push({
             id: `${optimisticId}-${selectedImages.length}-image`,
@@ -771,7 +876,6 @@ const SellerChat = () => {
             temporary: true,
           });
         }
-        console.log("Optimistic messages:", optimisticMessages);
         // Save copy of input data for API request
         const messageCopy = message;
         const selectedImagesCopy = [...selectedImages];
@@ -793,6 +897,7 @@ const SellerChat = () => {
                 ? {
                     ...contact,
                     message: lastMessage.text || "Hình ảnh",
+                    sender: 'me',
                     time: lastMessage.time,
                   }
                 : contact
@@ -946,7 +1051,32 @@ const SellerChat = () => {
       </div>
     );
   };
-
+  // Load older messages
+  const loadMoreMessages = async () => {
+    if (!activeChat || loadingMore || !hasMore) return;
+    if (page === 1 && messages.length < 10) return;
+    if (messages.length > 0) {
+      lastLoadedMessageRef.current = messages[0].id;
+    }
+    try {
+      setLoadingMore(true);
+      const nextPage = page + 1;
+      await fetchMessages(activeChat, nextPage, true);
+      setPage(nextPage);
+      requestAnimationFrame(() => {
+        const element = document.getElementById(
+          `message-${lastLoadedMessageRef.current}`
+        );
+        if (element) {
+          element.scrollIntoView({ behavior: "auto", block: "start" });
+        }
+      });
+    } catch (error) {
+      console.error("Error loading more messages:", error);
+    } finally {
+      setLoadingMore(false);
+    }
+  };
   // Component hiển thị tin nhắn hệ thống (ngày)
   const SystemMessage = ({ displayText }) => (
     <div className="py-3 flex justify-center">
@@ -1005,7 +1135,7 @@ const SellerChat = () => {
     const isTyping = isTypingByString || isTypingByObject;
     return isTyping;
   };
-
+  console.log(contacts);
   return (
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar with function icons */}
@@ -1048,8 +1178,13 @@ const SellerChat = () => {
               type="text"
               placeholder="Tìm kiếm"
               className="w-full pl-9 pr-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-orange-500"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
             />
-            <Search size={18} className="absolute left-3 top-3 text-gray-400" />
+            <Search
+              size={18}
+              className="absolute left-3 top-3 text-gray-400"
+            />
           </div>
         </div>
 
@@ -1073,7 +1208,7 @@ const SellerChat = () => {
               Không có hội thoại nào
             </div>
           ) : (
-            contacts.map((contact) => (
+            filteredContacts.map((contact) => (
               <div
                 key={contact.id}
                 onClick={() => {
@@ -1105,7 +1240,7 @@ const SellerChat = () => {
                     </span>
                   </div>
                   <p className="text-sm text-gray-500 truncate">
-                    {contact.message}
+                    {contact.sender==="me" ? 'Bạn: ':''} {contact.message}
                   </p>
                 </div>
               </div>
@@ -1136,7 +1271,33 @@ const SellerChat = () => {
               </div>
             </div>
 
-            <div className="flex-1 p-4 overflow-y-auto bg-gray-50">
+            <div
+              className="flex-1 p-4 overflow-y-auto bg-gray-50"
+              ref={chatContainerRef}
+            >
+              {/* Sentinel element for infinite scrolling */}
+              <div ref={sentinelRef} className="h-1"></div>
+
+              {/* Loading indicator for older messages */}
+              {loadingMore && (
+                <div className="flex justify-center items-center py-3">
+                  <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-gray-900"></div>
+                </div>
+              )}
+
+              {/* Load more messages button */}
+              {hasMore && !loadingMore && messages.length > 0 && (
+                <div className="flex justify-center my-2">
+                  <button
+                    onClick={loadMoreMessages}
+                    className="text-blue-500 hover:text-blue-700 text-sm flex items-center bg-gray-100 px-3 py-1 rounded-full"
+                  >
+                    <RefreshCw size={14} className="mr-1" />
+                    Tải tin nhắn cũ hơn
+                  </button>
+                </div>
+              )}
+
               {/* Messages display area */}
               <div className="max-w mx-2">
                 {loading && messages.length === 0 ? (
@@ -1156,7 +1317,7 @@ const SellerChat = () => {
                 ) : (
                   <>
                     {messages.map((msg, index) => (
-                      <div key={`${msg.id}-${index}`}>
+                      <div key={`${msg.id}-${index}`} id={`message-${msg.id}`}>
                         {renderMessage(
                           msg,
                           getContactById(activeChat).avatar,
@@ -1282,7 +1443,7 @@ const SellerChat = () => {
                   onKeyUp={(e) => setCursorPosition(e.target.selectionStart)}
                   onKeyDown={handleKeyPress}
                   placeholder="Nhập tin nhắn..."
-                  className="flex-1 border border-gray-300 rounded-l-lg px-4 py-2 focus:outline-none focus:border-blue-500"
+                  className="flex-1 border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500"
                   disabled={loading}
                 />
 
@@ -1295,7 +1456,7 @@ const SellerChat = () => {
                     (!message.trim() && selectedImages.length === 0) || loading
                       ? "bg-gray-300 cursor-not-allowed"
                       : "bg-blue-500 hover:bg-blue-600"
-                  } text-white px-3 py-3 rounded-[100%] ml-2`}
+                  } text-white px-3 py-3 rounded-full ml-2`}
                 >
                   {loading ? (
                     <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>

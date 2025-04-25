@@ -15,7 +15,7 @@ import {
   subscribeToReadReceipts,
   markMessagesAsRead,
   sendTypingStatus,
-  subscribeToSellerStatus,
+  subscribeToUserStatus,
   getSocket,
   autoMarkAsRead,
   joinConversation,
@@ -49,8 +49,7 @@ const ChatApp = () => {
   useEffect(() => {
     if (user && user._id) {
       // Initialize socket
-      const socket = initSocket(user._id);
-
+      const socket = initSocket(user);
       // Subscribe to new messages
       const unsubscribeMessages = subscribeToMessages(user._id, (data) => {
         if (data.type === "new_message") {
@@ -89,7 +88,6 @@ const ChatApp = () => {
 
       // Cleanup on unmount
       return () => {
-        unsubscribeMessages();
         unsubscribeReadReceipts();
         socket.off("typing");
         socket.off("stop_typing");
@@ -148,9 +146,10 @@ const ChatApp = () => {
     };
   }, [user]);
   // Subscribe to seller status when conversation changes
+
   useEffect(() => {
     if (currentSellerId) {
-      const unsubscribeStatus = subscribeToSellerStatus(
+      const unsubscribeStatus = subscribeToUserStatus(
         currentSellerId,
         (status) => {
           setSellerStatus((prev) => ({
@@ -158,7 +157,7 @@ const ChatApp = () => {
             [currentSellerId]: status.isOnline,
           }));
         }
-      );
+      ); 
 
       return () => {
         if (unsubscribeStatus) unsubscribeStatus();
@@ -184,8 +183,8 @@ const ChatApp = () => {
         ...prevMessages,
         {
           id: message._id,
-          sender: message.senderId === user._id ? "buyer" : "store",
           content: message.content || "",
+          sender: "user",
           text: message.content || "",
           images: message.imagesUrl,
           time: formattedTime,
@@ -210,8 +209,6 @@ const ChatApp = () => {
 
   const handleReadReceipts = (data) => {
     const { conversationId, readBy, readAt } = data;
-
-    console.log("Nhận được read receipt:", data);
 
     // Update messages in current conversation
     if (currentConversationRef.current === conversationId) {
@@ -274,6 +271,7 @@ const ChatApp = () => {
           return {
             ...conv,
             lastMessage: message.content || "[Hình ảnh]",
+            sender: isFromMe ? "me" : "user",
             time: formatTime(new Date(message.timestamp || message.createdAt)),
             unread:
               !isFromMe && currentConversationRef.current !== conversationId,
@@ -300,10 +298,27 @@ const ChatApp = () => {
           unread: conversation.unreadCount > 0,
           unreadCount: conversation.unreadCount,
           sellerId: conversation.seller._id,
+          sender: conversation?.lastMessage?.senderId=== user._id ? "me" : "user",
           status: sellerStatus[conversation.seller._id] ? "Online" : "Offline",
         }));
 
         setConversations(formattedConversations);
+        // Đăng ký lắng nghe trạng thái online cho tất cả người bán
+        formattedConversations.forEach((conv) => {
+          subscribeToUserStatus(conv.sellerId, (status) => {
+            setSellerStatus((prev) => ({
+              ...prev,
+              [conv.sellerId]: status.isOnline,
+            }));
+            setConversations((prevConversations) =>
+              prevConversations.map((c) =>
+                c.sellerId === conv.sellerId
+                  ? { ...c, status: status.isOnline ? "Online" : "Offline" }
+                  : c
+              )
+            );
+          });
+        });
       }
     } catch (err) {
       console.error("Error fetching conversations:", err);
@@ -522,7 +537,6 @@ const ChatApp = () => {
   const handleSelectConversation = async (conversationId, sellerId) => {
     setCurrentConversation(conversationId);
     setCurrentSellerId(sellerId);
-
     // Mark messages as read when selecting a conversation
     try {
       // Update UI first (optimistic update)
@@ -559,13 +573,13 @@ const ChatApp = () => {
   // Handle message received (update state after sending message)
   const handleMessageSent = (newMessage) => {
     setMessages((prevMessages) => [...prevMessages, newMessage]);
-
     // Update the conversation list to show the latest message
     setConversations((prevConversations) => {
       return prevConversations.map((conv) => {
         if (conv.id === currentConversation) {
           return {
             ...conv,
+            sender: "me",
             lastMessage: newMessage.content || "[Hình ảnh]",
             time: formatTime(new Date()),
           };
@@ -573,8 +587,9 @@ const ChatApp = () => {
         return conv;
       });
     });
+    console.log(conversations);
   };
-
+  
   const isAnyoneTyping = () => {
     if (!currentConversation) {
       console.log("Không có cuộc trò chuyện active");
@@ -582,7 +597,9 @@ const ChatApp = () => {
     }
 
     // Lấy thông tin contact đang active
-    const activeContact = conversations.find((c) => c.id === currentConversation);
+    const activeContact = conversations.find(
+      (c) => c.id === currentConversation
+    );
     if (!activeContact) {
       return false;
     }
@@ -594,9 +611,6 @@ const ChatApp = () => {
       return false;
     }
 
-    console.log("Kiểm tra typing status cho:", userId);
-    console.log("Danh sách typing users:", typingUsers);
-
     // Kiểm tra trạng thái typing với kiểu dữ liệu khác nhau của userId
     const isTypingByString = Boolean(typingUsers[userId]);
     const isTypingByObject = userId._id
@@ -604,11 +618,9 @@ const ChatApp = () => {
       : false;
 
     const isTyping = isTypingByString || isTypingByObject;
-    console.log("Người dùng này đang gõ?", isTyping);
 
     return isTyping;
   };
-
 
   return (
     <div className="w-full h-screen flex shadow-lg bg-white">

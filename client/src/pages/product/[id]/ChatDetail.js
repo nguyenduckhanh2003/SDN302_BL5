@@ -188,7 +188,7 @@ const ChatMessage = memo(({ message, isCurrentUser }) => {
 // Component chính hiển thị tất cả tin nhắn
 const ChatDisplayContainer = ({ conversationData, currentUserId }) => {
   const messagesEndRef = useRef(null);
-
+  console.log(conversationData);
   // Scroll to bottom khi có tin nhắn mới
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -209,7 +209,7 @@ const ChatDisplayContainer = ({ conversationData, currentUserId }) => {
 
     return (
       <>
-        {conversationData.messagesByDate.map((dateGroup, dateIndex) => (
+        {conversationData?.messagesByDate?.map((dateGroup, dateIndex) => (
           <div key={`date-${dateIndex}`}>
             {/* Hiển thị ngày */}
             <DateSeparator text={dateGroup.displayText} />

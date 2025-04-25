@@ -2,6 +2,11 @@
 const { Server } = require("socket.io");
 const Message = require("../models/Message");
 const Conversation = require("../models/Conversation");
+const {
+  generateSessionKey,
+  decryptMessage,
+  encryptMessage,
+} = require("./socketUtil");
 
 function initSocketServer(httpServer) {
   const io = new Server(httpServer, {
@@ -9,34 +14,58 @@ function initSocketServer(httpServer) {
       origin: process.env.CLIENT_URL || "*", // Cho phép tất cả origins trong development
       methods: ["GET", "POST"],
       credentials: true,
+      secure: true,
     },
     transports: ["websocket", "polling"], // Hỗ trợ cả WebSocket và HTTP long-polling
+    pingTimeout: 30000,
+    pingInterval: 25000,
+    cookie: {
+      name: "io",
+      httpOnly: true,
+      secure: true, // Chỉ sử dụng cookie qua HTTPS
+    },
   });
 
   // Map để lưu trữ thông tin người dùng đang online
   const onlineUsers = new Map();
+  // Map lưu trữ khóa bảo mật cho mỗi người dùng
+  const userEncryptionKeys = new Map();
 
   // Xử lý khi có client kết nối đến
   io.on("connection", (socket) => {
-    console.log("New client connected:", socket.id);
+    // Thiết lập kênh bảo mật khi người dùng kết nối
+    socket.on("establish_secure_channel", (userId) => {
+      if (!userId) return;
+
+      // Tạo khóa phiên mới cho người dùng
+      const sessionKey = generateSessionKey();
+      userEncryptionKeys.set(userId, sessionKey);
+
+      // Gửi khóa phiên cho client
+      socket.emit("secure_channel_established", { sessionKey });
+    });
 
     // Xử lý khi người dùng đăng nhập và kết nối
-    socket.on("user_connect", (userId) => {
+    socket.on("user_connect", (userId ) => {
       if (!userId) return;
 
       console.log(`User ${userId} connected with socket ${socket.id}`);
 
       // Lưu thông tin socket ID của người dùng
       onlineUsers.set(userId, socket.id);
+      // Emit online cho mọi người dùng
+      io.emit(`online:${userId}`, { userId, isOnline: true });
+      console.log(`User ${userId} is online`);
 
-      // Thông báo cho người dùng này về danh sách người dùng đang online
       socket.emit("online_users", Array.from(onlineUsers.keys()));
-      if (socket.handshake.query.currentConversation) {
-        console.log(
-          `User ${userId} auto-joining conversation: ${conversationId}`
-        );
-        socket.join(socket.handshake.query.currentConversation);
+      if (
+        socket.handshake.query &&
+        socket.handshake.query.currentConversation
+      ) {
+        const conversationId = socket.handshake.query.currentConversation;
+        socket.join(conversationId);
       }
+
       // Thông báo cho tất cả người dùng khác rằng người dùng này đã online
       socket.broadcast.emit("user_connected", userId);
     });
@@ -45,7 +74,6 @@ function initSocketServer(httpServer) {
     socket.on("disconnect", () => {
       let disconnectedUserId = null;
 
-      // Tìm userId dựa vào socket.id
       for (const [userId, socketId] of onlineUsers.entries()) {
         if (socketId === socket.id) {
           disconnectedUserId = userId;
@@ -55,14 +83,19 @@ function initSocketServer(httpServer) {
 
       if (disconnectedUserId) {
         console.log(`User ${disconnectedUserId} disconnected`);
+        io.emit(`offline:${disconnectedUserId}`, {
+          userId: disconnectedUserId,
+          isOnline: false,
+        });
+        console.log(`User ${disconnectedUserId} is offline`);
 
-        // Xóa người dùng khỏi danh sách online
         onlineUsers.delete(disconnectedUserId);
-
-        // Thông báo cho tất cả người dùng khác rằng người dùng này đã offline
+        userEncryptionKeys.delete(disconnectedUserId);
         socket.broadcast.emit("user_disconnected", disconnectedUserId);
       }
     });
+
+    // Xử lý khi người dùng tham gia vào cuộc trò chuyện
     socket.on("join_conversation", (data) => {
       if (!data.conversationId || !data.userId) {
         console.error("Invalid join_conversation data:", data);
@@ -88,25 +121,30 @@ function initSocketServer(httpServer) {
         `User ${data.userId} joined conversation: ${data.conversationId}`
       );
     });
-    // Xử lý khi có tin nhắn mới
+
+    // Xử lý khi có tin nhắn mới (với mã hóa)
     socket.on("send_message", async (messageData) => {
       try {
-        if (!messageData || !messageData.receiverId) {
+        if (!messageData || !messageData.receiverId || !messageData.senderId) {
           console.error("Invalid message data:", messageData);
           return;
         }
+        console.log("Received message data:", messageData);
+
+        // Tạo bản sao của dữ liệu tin nhắn và loại bỏ _id (nếu có)
+        const { _id, ...messageDataWithoutId } = messageData;
+
         // Lấy socket ID của người nhận
         const receiverSocketId = onlineUsers.get(messageData.receiverId);
 
         if (receiverSocketId) {
-          // Gửi tin nhắn đến người nhận nếu họ đang online
+          // Gửi tin nhắn đến người nhận
           io.to(receiverSocketId).emit(`message:${messageData.receiverId}`, {
             message: messageData,
             conversation: messageData.conversationId,
             type: "new_message",
           });
 
-          // Cập nhật trạng thái tin nhắn thành "delivered" nếu người nhận online
           if (messageData._id) {
             await Message.findByIdAndUpdate(messageData._id, {
               status: "delivered",
@@ -211,14 +249,12 @@ function initSocketServer(httpServer) {
         console.error("Error auto-marking messages as read:", error);
       }
     });
-    // Kiểm tra trạng thái online của người dùng
-    socket.on("check_user_status", (data, callback) => {
-      const { userId } = data;
-
+    // Kiểm tra trạng thái online của người dùng (bao gồm người bán)
+    socket.on("check_seller_status", ({ sellerId }, callback) => {
       if (callback && typeof callback === "function") {
         callback({
-          userId,
-          isOnline: onlineUsers.has(userId),
+          sellerId,
+          isOnline: onlineUsers.has(sellerId),
         });
       }
     });

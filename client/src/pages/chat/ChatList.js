@@ -104,7 +104,7 @@ const ChatList = ({
                   <h3 className="font-medium text-sm text-gray-900 truncate">{conversation.name}</h3>
                   <span className="text-xs text-gray-500">{conversation.time}</span>
                 </div>
-                <p className="text-sm text-gray-500 truncate">{conversation.lastMessage}</p>
+                <p className="text-sm text-gray-500 truncate">{conversation.sender==='me' ?'Bạn: ':''}{conversation.lastMessage}</p>
               </div>
               {currentConversationId === conversation.id && (
                 <div onClick={(e) => {

@@ -25,7 +25,8 @@ const conversationSchema = new mongoose.Schema({
     }
 }, { timestamps: true });
 // Tạo index cho truy vấn hiệu quả
-conversationSchema.index({ participants: 1, productId: 1 });
+conversationSchema.index({ participants: 1 });
+conversationSchema.index({ participants: 1, isActive: 1, updatedAt: -1 });
 
 
 const Conversation = mongoose.model('Conversation', conversationSchema);

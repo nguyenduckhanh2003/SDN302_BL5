@@ -38,10 +38,12 @@ const isSeller = (req, res, next) => {
 };
 
 // Public routes (no authentication required)
+
 router.get("/product-review/:productId", reviewController.getProductReviews);
 router.get("/store-feedback/:storeId", feedbackController.getStoreFeedbacks);
 router.get("/store-reputation/:storeId", feedbackController.getStoreReputation);
-
+router.get('/reputation/:storeId', feedbackController.getSellerReputation);
+router.get('/feedback', feedbackController.getFeedbacks);
 // Buyer-only routes
 router.post(
   "/product-review",

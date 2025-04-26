@@ -3,6 +3,7 @@ const productRoute = require("./products.route");
 const reviewRoutes = require("./reviewandfeedback.route");
 const OrderRoutes = require("./order.route");
 const chatRoute = require("./chat.route");
+const storeRoute = require("./store.routes");
 // const CategoriesRoutes = require("./categories.route");
 const initRoutes = (app) => {
   app.get("/", (req, res) => {
@@ -14,6 +15,6 @@ const initRoutes = (app) => {
   app.use("/api/chat", chatRoute);
   app.use("/api/reviews", reviewRoutes);
   app.use("/api/orders", OrderRoutes);
+  app.use("/api/stores", storeRoute);
 };
-
 module.exports = initRoutes;

@@ -296,6 +296,7 @@ exports.getFeedbacks = async (req, res) => {
       const skip = (page - 1) * limit; 
 
       const feedbacks = await Feedback.find({ rating: { $gte: 4 } })
+      // const feedbacks = await Feedback.find()
           .populate('storeId')
           .populate('userId')
           .skip(skip)

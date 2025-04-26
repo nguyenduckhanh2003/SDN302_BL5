@@ -10,7 +10,10 @@ import {
   FaCheck,
   FaReceipt,
 } from "react-icons/fa";
-
+import TopMenu from "../../components/TopMenu";
+import MainHeader from "../../components/MainHeader";
+import SubMenu from "../../components/SubMenu";
+import Footer from "../../components/Footer";
 const getCookie = (name) => {
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);
@@ -553,6 +556,12 @@ const OrderList = () => {
   }
 
   return (
+            <div id="MainLayout" className="min-w-[1050px] max-w-[1300px] mx-auto">
+                <div>
+                    <TopMenu />
+                    <MainHeader />
+                    <SubMenu />
+                </div>
     <div className="bg-gray-50 min-h-screen">
       <div className="container mx-auto py-8 px-4">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
@@ -627,6 +636,9 @@ const OrderList = () => {
           </div>
         )}
       </div>
+    </div>
+    
+                <Footer />
     </div>
   );
 };

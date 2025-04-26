@@ -304,6 +304,205 @@ export default function ProductDetail() {
                 </div>
               </div>
 
+              {/* Shipping & Payment */}
+              <div className="py-4 border-b border-gray-200">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <div className="flex justify-between items-center mb-2">
+                      <h3 className="text-base font-medium">Shipping</h3>
+                      <button
+                        onClick={() => setShowShipping(!showShipping)}
+                        className="text-xs text-[#0053A0]"
+                      >
+                        {showShipping ? "Hide" : "Show"} details
+                      </button>
+                    </div>
+                    <div className="text-sm">
+                      <div className="flex justify-between">
+                        <span>Item location:</span>
+                        <span>London, United Kingdom</span>
+                      </div>
+                      <div className="flex justify-between mt-1">
+                        <span>Shipping to:</span>
+                        <span>United Kingdom</span>
+                      </div>
+                      <div className="flex justify-between mt-1">
+                        <span>Delivery:</span>
+                        <span className="text-green-600 font-medium">
+                          Free Standard Delivery
+                        </span>
+                      </div>
+                      <div className="flex justify-between mt-1">
+                        <span>Estimated between:</span>
+                        <span>Wed, 15 Jun and Mon, 20 Jun</span>
+                      </div>
+                    </div>
+
+                    {showShipping && (
+                      <div className="mt-3 text-xs bg-gray-50 p-3 border border-gray-200">
+                        <table className="w-full">
+                          <thead className="text-gray-500">
+                            <tr>
+                              <th className="text-left py-1">Service</th>
+                              <th className="text-right py-1">Delivery*</th>
+                              <th className="text-right py-1">Cost</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td className="py-1">Standard Delivery</td>
+                              <td className="text-right py-1">
+                                3-5 business days
+                              </td>
+                              <td className="text-right py-1 font-medium">
+                                Free
+                              </td>
+                            </tr>
+                            <tr>
+                              <td className="py-1">Express Delivery</td>
+                              <td className="text-right py-1">
+                                1-2 business days
+                              </td>
+                              <td className="text-right py-1">£4.99</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p className="mt-2">* Estimated delivery times</p>
+                      </div>
+                    )}
+                  </div>
+
+                  <div>
+                    <div className="flex justify-between items-center mb-2">
+                      <h3 className="text-base font-medium">Payment</h3>
+                      <button
+                        onClick={() => setShowPayment(!showPayment)}
+                        className="text-xs text-[#0053A0]"
+                      >
+                        {showPayment ? "Hide" : "Show"} details
+                      </button>
+                    </div>
+                    <div className="text-sm">
+                      <div className="flex items-center gap-1 mb-1">
+                        <img
+                          src="https://ir.ebaystatic.com/cr/v/c1/payment-icons/visa.svg"
+                          alt="Visa"
+                          className="h-6"
+                        />
+                        <img
+                          src="https://ir.ebaystatic.com/cr/v/c1/payment-icons/mastercard.svg"
+                          alt="Mastercard"
+                          className="h-6"
+                        />
+                        <img
+                          src="https://ir.ebaystatic.com/cr/v/c1/payment-icons/paypal.svg"
+                          alt="PayPal"
+                          className="h-6"
+                        />
+                      </div>
+                      <div className="text-xs text-gray-500">
+                        *Terms and conditions apply
+                      </div>
+                    </div>
+
+                    {showPayment && (
+                      <div className="mt-3 text-xs bg-gray-50 p-3 border border-gray-200">
+                        <p>Payment methods accepted:</p>
+                        <ul className="list-disc list-inside mt-1">
+                          <li>Credit/Debit Cards (Visa, Mastercard, Amex)</li>
+                          <li>PayPal</li>
+                          <li>Google Pay</li>
+                          <li>Apple Pay</li>
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+
+              {/* Returns */}
+              <div className="py-4 border-b border-gray-200">
+                <div className="flex justify-between items-center mb-2">
+                  <h3 className="text-base font-medium">Returns</h3>
+                  <button
+                    onClick={() => setShowReturns(!showReturns)}
+                    className="text-xs text-[#0053A0]"
+                  >
+                    {showReturns ? "Hide" : "Show"} details
+                  </button>
+                </div>
+                <div className="text-sm">
+                  <p>30 day returns. Buyer pays for return shipping.</p>
+                </div>
+
+                {showReturns && (
+                  <div className="mt-3 text-xs bg-gray-50 p-3 border border-gray-200">
+                    <p className="font-medium">Return policy details:</p>
+                    <ul className="list-disc list-inside mt-1">
+                      <li>
+                        Returns accepted within 30 days after the buyer receives
+                        the item
+                      </li>
+                      <li>Buyer pays for return shipping</li>
+                      <li>Item must be returned in original condition</li>
+                    </ul>
+                  </div>
+                )}
+              </div>
+
+              {/* Description */}
+              <div className="py-4">
+                <div className="flex justify-between items-center mb-2">
+                  <h3 className="text-base font-medium">Description</h3>
+                  <button
+                    onClick={() => setShowDescription(!showDescription)}
+                    className="text-xs text-[#0053A0]"
+                  >
+                    {showDescription ? "Hide" : "Show"} details
+                  </button>
+                </div>
+                <div className="text-sm">
+                  <p className="line-clamp-3">{detail.description}</p>
+                </div>
+
+                {showDescription && (
+                  <div className="mt-3 text-sm">
+                    <p>{detail.description}</p>
+                    <div className="mt-4">
+                      <h4 className="font-medium">Product Specifications:</h4>
+                      <table className="w-full mt-2 text-xs">
+                        <tbody>
+                          <tr className="border-t border-gray-200">
+                            <td className="py-2 w-1/3 text-gray-500">Brand</td>
+                            <td className="py-2">Premium Brand</td>
+                          </tr>
+                          <tr className="border-t border-gray-200">
+                            <td className="py-2 w-1/3 text-gray-500">Model</td>
+                            <td className="py-2">2023 Edition</td>
+                          </tr>
+                          <tr className="border-t border-gray-200">
+                            <td className="py-2 w-1/3 text-gray-500">Color</td>
+                            <td className="py-2">Black</td>
+                          </tr>
+                          <tr className="border-t border-gray-200">
+                            <td className="py-2 w-1/3 text-gray-500">
+                              Material
+                            </td>
+                            <td className="py-2">Premium Quality</td>
+                          </tr>
+                          <tr className="border-t border-gray-200">
+                            <td className="py-2 w-1/3 text-gray-500">
+                              Dimensions
+                            </td>
+                            <td className="py-2">30 x 20 x 10 cm</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
+              </div>
+
               {/* Seller Information (Desktop) */}
               <div className="hidden lg:block mt-4 p-3 bg-gray-50 border border-gray-200">
                 <div className="flex flex-column flex-wrap">

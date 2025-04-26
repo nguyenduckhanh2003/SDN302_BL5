@@ -11,7 +11,6 @@ import Orders from "./pages/orders/page";
 import ListCategory from "./pages/listCategory/page";
 import Wishlist from "./pages/wishlist/page";
 import Sell from "./pages/sell/page";
-
 import TotalSell from "./pages/totalSell/page";
 import Success from "./pages/success/page";
 import AuthPage from "./pages/auth/page";
@@ -28,6 +27,8 @@ import { persistor, store } from "./redux/store";
 import { PersistGate } from "redux-persist/integration/react";
 import ChatApp from "./pages/chat/ChatApp";
 import SellerChat from "./pages/seller-manager/page";
+// Bỏ import StoreReputation vì không cần route riêng nữa
+// import StoreReputation from "./pages/sell/StoreReputation";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -45,6 +46,8 @@ root.render(
           <Route path="/list-category/:categoryId" element={<ListCategory />} />
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/sell" element={<Sell />} />
+          {/* Bỏ route StoreReputation */}
+          {/* <Route path="/StoreReputation/:storeId" element={<StoreReputation />} /> */}
           <Route path="/sellerProduct" element={<SellerProducts />} />
           <Route path="/order-history" element={<OrderHistory2 />} />
           <Route path="/search" element={<SearchResults />} />
@@ -61,7 +64,4 @@ root.render(
   </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

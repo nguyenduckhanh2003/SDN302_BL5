@@ -251,3 +251,69 @@ exports.getStoreReputation = async (req, res) => {
     });
   }
 };
+exports.getSellerReputation = async (req, res) => {
+  try {
+      const { storeId } = req.params;
+
+      if (!storeId) {
+          return res.status(400).json({ success: false, message: 'Store ID is required' });
+      }
+
+      const feedbacks = await Feedback.find({ storeId });
+
+      if (feedbacks.length === 0) {
+          return res.status(404).json({ success: false, message: 'No feedback found for this store' });
+      }
+
+      const positiveFeedbacks = feedbacks.filter(feedback => feedback.rating >= 0).length;
+
+      const totalFeedbacks = feedbacks.length;
+
+      const reputationScore = ((positiveFeedbacks / totalFeedbacks) * 100).toFixed(2);
+
+      // const totalRating = feedbacks.reduce((sum, feedback) => sum + feedback.rating, 0);
+      // const reputationScore = (totalRating / totalFeedbacks).toFixed(2);
+
+      res.status(200).json({
+          success: true,
+          data: {
+              storeId,
+              totalFeedbacks,
+              positiveFeedbacks,
+              reputationScore: `${reputationScore}%`
+          }
+      });
+  } catch (error) {
+      console.error('Error calculating seller reputation:', error);
+      res.status(500).json({ success: false, message: 'Failed to calculate seller reputation' });
+  }
+};
+
+exports.getFeedbacks = async (req, res) => {
+  try {
+      const { page = 1 } = req.query; 
+      const limit = 5; 
+      const skip = (page - 1) * limit; 
+
+      const feedbacks = await Feedback.find({ rating: { $gte: 4 } })
+          .populate('storeId')
+          .populate('userId')
+          .skip(skip)
+          .limit(limit);
+
+      const totalFeedbacks = await Feedback.countDocuments();
+
+      res.status(200).json({
+          success: true,
+          data: feedbacks,
+          pagination: {
+              currentPage: Number(page),
+              totalPages: Math.ceil(totalFeedbacks / limit),
+              totalFeedbacks,
+          },
+      });
+  } catch (error) {
+      console.error('Error fetching feedbacks:', error);
+      res.status(500).json({ success: false, message: 'Failed to fetch feedbacks' });
+  }
+};

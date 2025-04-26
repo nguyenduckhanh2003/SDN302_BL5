@@ -260,6 +260,13 @@ export default function Orders() {
                                             <div className="mt-2">
                                                 <p className="text-gray-700"> description: {orderDispute.description}</p>
                                             </div>
+                                            {
+                                                orderDispute.resolution && (
+                                                    <div className="mt-2">
+                                                        <p className="text-gray-700"> Resolution: {orderDispute.resolution}</p>
+                                                    </div>
+                                                )
+                                            }
                                         </div>
                                     )}
 

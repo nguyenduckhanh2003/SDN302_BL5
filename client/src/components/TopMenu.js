@@ -12,7 +12,7 @@ export default function TopMenu() {
     const navigate = useNavigate()
     const location = useLocation()
     const dispatch = useDispatch()
-    const {isAuthenticated,user} = useSelector((state) => state.auth);
+    const { isAuthenticated, user } = useSelector((state) => state.auth);
     useEffect(() => {
         const user = localStorage.getItem('currentUser')
         if (user) {
@@ -84,7 +84,7 @@ export default function TopMenu() {
                 <ul id="TopMenuLeft" className="flex items-center text-[11px] text-[#333333] px-2 h-8">
                     <li className="relative px-3">
                         {isAuthenticated ? (
-                            
+
                             <button
                                 onClick={() => setIsMenu(!isMenu)}
                                 className="flex items-center gap-2 hover:underline cursor-pointer"
@@ -122,7 +122,10 @@ export default function TopMenu() {
 
                                 <ul className="bg-white">
                                     <li className="text-[11px] py-2 px-4 w-full hover:underline text-blue-500 hover:text-blue-600 cursor-pointer">
-                                        <Link to="/order-history">My orders</Link>
+                                        <Link to="/order-history">My orders history</Link>
+                                    </li>
+                                    <li className="text-[11px] py-2 px-4 w-full hover:underline text-blue-500 hover:text-blue-600 cursor-pointer">
+                                        <Link to="/orders">My orders</Link>
                                     </li>
                                     <li
                                         onClick={handleSignOut}
@@ -152,6 +155,13 @@ export default function TopMenu() {
                     )}
                     {user?.role === "seller" && (
                         <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
+                            <Link to="/dispute-management" className="flex items-center gap-2 text-blue-400 font-bold">
+                                Dispute Management
+                            </Link>
+                        </li>
+                    )}
+                    {user?.role === "seller" && (
+                        <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
                             <Link to="/manager-conversation-sell" className="flex items-center gap-2 text-blue-400 font-bold">
                                 Seller Chat
                             </Link>
@@ -159,10 +169,10 @@ export default function TopMenu() {
                     )}
                     {user?.role === "buyer" && (
                         <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
-                        <Link to="/conversations" className="flex items-center gap-2 text-blue-400 font-bold">
-                            Conversations
-                        </Link>
-                    </li>
+                            <Link to="/conversations" className="flex items-center gap-2 text-blue-400 font-bold">
+                                Conversations
+                            </Link>
+                        </li>
                     )}
                     <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
                         <Link to="/sell" className="flex items-center gap-2">

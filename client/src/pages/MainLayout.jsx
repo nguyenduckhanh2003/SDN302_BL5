@@ -584,15 +584,11 @@ const MainPage = () => {
           <div className="mb-12">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-bold">All Products</h2>
-              <div className="text-sm text-gray-500">{data.length} results</div>
+              <div className="text-sm text-gray-500">{data?.length} results</div>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-8">
-              {data.map((product) => (
-                <Product
-                  key={product.id}
-                  product={product}
-                  // rating={product.}
-                />
+              { data && data.map((product) => (
+                <Product key={product.id} product={product} />
               ))}
             </div>
           </div>

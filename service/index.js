@@ -56,10 +56,10 @@ app.use(redisHealthCheck);
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  
+
   // First apply the upload error handler
   uploadErrorHandler(err, req, res, next);
-  
+
   // If the error wasn't handled by uploadErrorHandler, handle it here
   res.status(500).json({
     success: false,
@@ -72,7 +72,7 @@ if (process.env.ENABLE_MESSAGE_ARCHIVING === 'true') {
   // Lấy cấu hình từ biến môi trường
   const archiveInterval = parseInt(process.env.ARCHIVE_DAYS_OLD || '90');
   const cronSchedule = process.env.ARCHIVE_CRON_SCHEDULE || '0 3 * * 0';
-  
+
   // Thiết lập lịch lưu trữ
   setupArchiveSchedule({
     daysOld: archiveInterval,

@@ -1,8 +1,11 @@
-const router = require("express").Router();
-const Orders = require("../controllers/order.controller");
-const authenticate = require("../middleware/auth.middleware");
+const router = require('express').Router();
+const order = require('../controllers/order.controller');
+const authenticate = require('../middleware/auth.middleware');
 
-router.get("/view-order", authenticate, Orders.getOrder);
-router.get("/:id", authenticate, Orders.getOrderById);
+router.use(authenticate)
+router.get('/orders', order.getOrders);
+
+router.get("/orders/view-order", order.getOrder);
+router.get("/orders/:id", order.getOrderById);
 
 module.exports = router;

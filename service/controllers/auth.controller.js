@@ -31,7 +31,7 @@ const authLogin = async (req, res) => {
 
         res.cookie("accessToken", accessToken, {
             ...cookieOptions,
-            maxAge: 2*24*60*60*1000 // 2 days
+            maxAge: 2 * 24 * 60 * 60 * 1000 // 2 days
         });
         res.cookie("userInfo", JSON.stringify({ _id: user._id, name: user.fullname, role: user.role }), cookieOptions);
 
@@ -59,7 +59,7 @@ const getProfile = async (req, res) => {
         }
         // Convert user to plain object to allow adding custom properties
         const userObject = user.toObject();
-        if(user.role === "seller"){
+        if (user.role === "seller") {
             const storeOwner = await Store.findOne({ seller: _id });
             if (storeOwner) {
                 userObject.store = storeOwner || null;

@@ -25,8 +25,9 @@ import HelpContact from "./pages/help/page";
 import { Provider } from "react-redux";
 import { persistor, store } from "./redux/store";
 import { PersistGate } from "redux-persist/integration/react";
-import ChatApp from "./pages/chat/ChatApp";
-import SellerChat from "./pages/seller-manager/page";
+import ChatApp from './pages/chat/ChatApp';
+import SellerChat from './pages/seller-manager/page';
+import DisputeMange from './pages/seller-manager/DisputeMange';
 // Bỏ import StoreReputation vì không cần route riêng nữa
 // import StoreReputation from "./pages/sell/StoreReputation";
 
@@ -58,10 +59,14 @@ root.render(
           <Route path="/help" element={<HelpContact />} />
           <Route path="/manager-conversation-sell" element={<SellerChat />} />
           <Route path="/conversations" element={<ChatApp />} />
-        </Routes>
-      </PersistGate>
-    </Provider>
-  </BrowserRouter>
+          <Route path="/dispute-management" element={<DisputeMange />} />
+
+        </Routes >
+      </PersistGate >
+
+    </Provider >
+
+  </BrowserRouter >
 );
 
 reportWebVitals();

@@ -1,7 +1,12 @@
 const authRoute = require("./auth.route");
 const productRoute = require("./products.route");
+const reviewRoutes = require("./reviewandfeedback.route");
+const OrderRoutes = require("./order.route");
+const storeRoute = require("./store.routes");
 const chatRoute = require("./chat.route");
-const rateLimit = require('express-rate-limit');
+const rateLimit = require("express-rate-limit");
+// const CategoriesRoutes = require("./categories.route");
+
 const initRoutes = (app) => {
   // Rate limiting for API endpoints
   const apiLimiter = rateLimit({
@@ -19,6 +24,9 @@ const initRoutes = (app) => {
 
   app.use("/auth", authRoute);
   app.use("/api", productRoute);
+  app.use("/api/reviews", reviewRoutes);
+  app.use("/api/orders", OrderRoutes);
+  app.use("/api/stores", storeRoute);
   // Apply rate limiting to all API routes
 };
 

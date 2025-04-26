@@ -1,6 +1,45 @@
 import { Link } from "react-router-dom";
+import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 
 export default function Product({ product }) {
+  // Hàm render rating stars với icon
+  const renderRatingStars = (rating) => {
+    const stars = [];
+
+    // Nếu chưa có đánh giá, hiển thị 5 sao rỗng
+    if (!rating) {
+      for (let i = 0; i < 5; i++) {
+        stars.push(
+          <FaRegStar key={`empty-${i}`} className="text-yellow-500" />
+        );
+      }
+      return stars;
+    }
+
+    // Tính số sao đầy, nửa sao và sao trống
+    const fullStars = Math.floor(rating);
+    // Hoặc cách đơn giản hơn, hiển thị nửa sao khi phần thập phân >= 0.5
+    const hasHalfStar = rating % 1 >= 0.5;
+    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
+    // Thêm sao đầy
+    for (let i = 0; i < fullStars; i++) {
+      stars.push(<FaStar key={`full-${i}`} className="text-yellow-500" />);
+    }
+
+    // Thêm nửa sao nếu có
+    if (hasHalfStar) {
+      stars.push(<FaStarHalfAlt key="half" className="text-yellow-500" />);
+    }
+
+    // Thêm sao trống
+    for (let i = 0; i < emptyStars; i++) {
+      stars.push(<FaRegStar key={`empty-${i}`} className="text-yellow-500" />);
+    }
+
+    return stars;
+  };
+
   return (
     <>
       <Link
@@ -26,6 +65,17 @@ export default function Product({ product }) {
           <div className="font-semibold text-[15px] hover:underline cursor-pointer">
             {product?.title}
           </div>
+
+          {/* Hiển thị rating stars trong mọi trường hợp */}
+          <div className="flex items-center gap-0.5 mt-1">
+            {renderRatingStars(product?.averageRating)}
+            {product?.averageRating && (
+              <span className="text-gray-600 ml-1 text-sm">
+                ({product.averageRating.toFixed(1)})
+              </span>
+            )}
+          </div>
+
           <div className="font-extrabold">
             £{(product?.price / 100).toFixed(2)}
           </div>

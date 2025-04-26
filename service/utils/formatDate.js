@@ -1,13 +1,12 @@
 export function groupMessagesByDate(messages) {
   const grouped = {};
-  
   messages.forEach(msg => {
-    const date = new Date(msg.timestamp).toLocaleDateString();
+    const date = new Date(msg.createdAt).toLocaleDateString();
     
     if (!grouped[date]) {
       grouped[date] = {
         date: date,
-        displayText: getDisplayDate(msg.timestamp),
+        displayText: getDisplayDate(msg.createdAt),
         messages: []
       };
     }

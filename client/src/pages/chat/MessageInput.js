@@ -3,7 +3,7 @@ import { Send, Smile, Image, X } from "lucide-react";
 import { sendChatToSeller } from "../../apis/chat/chat";
 import EmojiPicker from "emoji-picker-react";
 import { formatMessageTime } from "../../utils/formatTime";
-import { getSocket, sendTypingStatus } from "../../utils/socketService";
+import { getSocket, sendMessage, sendTypingStatus } from "../../utils/socketService";
 import { useSelector } from "react-redux";
 
 const MessageInput = ({
@@ -95,7 +95,7 @@ const MessageInput = ({
       if (inputValue.trim()) {
         const optimisticTextMessage = {
           id: `temp-text-${Date.now()}`,
-          sender: "buyer",
+          sender: "me",
           content: inputValue,
           time: new Date().toLocaleTimeString("vi-VN", {
             hour: "2-digit",
@@ -113,7 +113,7 @@ const MessageInput = ({
       if (selectedImages.length > 0) {
         const optimisticImageMessage = {
           id: `temp-image-${Date.now()}-${Math.random()}`,
-          sender: "buyer",
+          sender: "me",
           content: "",
           images: selectedImages.map((image) => image.preview),
           time: new Date().toLocaleTimeString("vi-VN", {
@@ -145,6 +145,14 @@ const MessageInput = ({
 
       if (response.success) {
         setUploadProgress(100); // Set progress to 100% on success
+        response.data.messages.forEach((msg) => {
+          // Gửi thông báo socket cho người nhận
+          sendMessage({
+            ...msg,
+            conversationId: conversationId,
+            receiverId: sellerId,
+          });
+        });
         setMessages((prevMessages) => {
           // Filter out temporary messages
           const filteredMessages = prevMessages.filter((msg) => !msg.temporary);

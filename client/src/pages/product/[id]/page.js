@@ -98,7 +98,7 @@ export default function ProductDetail() {
 
         // Lấy danh sách review
         const reviewResponse = await fetch(
-          `http://localhost:4000/api/reviews/product-review/${id}` // Sửa URL API
+          `https://localhost:8443/api/reviews/product-review/${id}` // Sửa URL API
         );
         const reviewData = await reviewResponse.json();
         if (reviewData.success) {

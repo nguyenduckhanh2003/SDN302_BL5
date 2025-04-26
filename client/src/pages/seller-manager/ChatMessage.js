@@ -88,7 +88,7 @@ const ChatMessage = React.memo(({ msg, contactAvatar, scrollToBottom }) => {
                 alt="Shared image"
                 className="rounded-md max-w-full h-[250px] object-cover cursor-pointer"
                 onClick={() => handleImageClick(0)}
-                onLoad={scrollToBottom}
+                // onLoad={scrollToBottom}
               />
             ) : (
               // If more than 1 image, display as thumbnails (2 per row)
@@ -100,7 +100,7 @@ const ChatMessage = React.memo(({ msg, contactAvatar, scrollToBottom }) => {
                     alt={`Thumbnail ${index + 1}`}
                     className="rounded-md w-[calc(50%-0.25rem)] h-[125px] object-cover cursor-pointer"
                     onClick={() => handleImageClick(index)}
-                    onLoad={scrollToBottom}
+                    // onLoad={scrollToBottom}
                   />
                 ))}
               </div>

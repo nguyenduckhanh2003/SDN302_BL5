@@ -3,7 +3,6 @@ const User = require("../models/User");
 const authenticate = async (req, res, next) => {
     try {
         const { accessToken } = req.cookies;
-
         if (!accessToken) {
             return res.status(401).json({
                 success: false,
@@ -25,6 +24,7 @@ const authenticate = async (req, res, next) => {
         req.user = user;
         next();
     } catch (err) {
+        console.log(err);
         if (err.name === "TokenExpiredError") {
             return res.status(401).json({
                 success: false,

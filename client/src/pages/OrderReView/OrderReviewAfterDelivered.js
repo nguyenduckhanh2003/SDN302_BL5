@@ -50,8 +50,8 @@ const ReviewForm = ({
 
     const url =
       type === "product"
-        ? "http://localhost:4000/api/reviews/product-review"
-        : "http://localhost:4000/api/reviews/store-feedback";
+        ? "https://localhost:8443/api/reviews/product-review"
+        : "https://localhost:8443/api/reviews/store-feedback";
     const body =
       type === "product"
         ? { orderId, productId, rating, comment }
@@ -151,7 +151,7 @@ const OrderItem = ({ order, onReviewSubmitted }) => {
         if (storeId && !reputations[storeId]) {
           try {
             const response = await fetch(
-              `http://localhost:4000/api/reviews/store-reputation/${storeId}`
+              `https://localhost:8443/api/reviews/store-reputation/${storeId}`
             );
             const data = await response.json();
             if (data.success) {
@@ -259,7 +259,7 @@ const OrderList = () => {
     setError(null);
     try {
       const response = await fetch(
-        "http://localhost:4000/api/orders/view-order",
+        "https://localhost:8443/api/orders/view-order",
         {
           headers: {
             Cookie: `accessToken=${getCookie("accessToken")}`,

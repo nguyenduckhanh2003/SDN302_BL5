@@ -91,9 +91,13 @@ const getConversations = async () => {
   return response;
 }
 
-const getConversationHistory = async (conversationId) => {
+const getConversationHistory = async (conversationId,page) => {
   try {
-    const response = await axios.get(`/api/chat/messages/conversation/${conversationId}`);
+    const response = await axios.get(`/api/chat/messages/conversation/${conversationId}`,{
+      params: { page }, // Gửi page như một tham số truy vấn,
+      withCredentials: true, // Đảm bảo gửi cookie nếu cần thiết cho xác thực
+      withXSRFToken: true, // Thêm tùy chọn này nếu bạn cần gửi token CSRF
+    });
     return response;
   } catch (error) {
     console.error('Lỗi khi lấy lịch sử tin nhắn:', error);

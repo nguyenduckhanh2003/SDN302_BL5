@@ -47,20 +47,30 @@ const ContactSellerModal = ({ isOpen, onClose, shoppInfo, product }) => {
 
   // Khởi tạo socket khi component mount nếu user đã đăng nhập
   useEffect(() => {
-    if (user?._id && isOpen) {
-      const socket = initSocket(user._id);
-
-      // Cleanup khi component unmount
-      return () => {
-        // Không ngắt kết nối socket khi đóng modal
-        // Chỉ hủy các subscription
-        if (typingTimeoutRef.current) {
-          clearTimeout(typingTimeoutRef.current);
-        }
-      };
-    }
-  }, [user, isOpen]);
-
+    if (!user?._id) return;
+  
+    let socket = initSocket(user);
+  
+    // Kiểm tra trạng thái kết nối
+    const checkConnection = () => {
+      if (!socket.connected) {
+        console.warn("Socket disconnected, attempting to reconnect...");
+        socket = initSocket(user); // Tái khởi tạo socket
+      }
+    };
+  
+    // Kiểm tra kết nối định kỳ
+    const interval = setInterval(checkConnection, 5000);
+  
+    // Cleanup khi component unmount
+    return () => {
+      clearInterval(interval);
+      if (typingTimeoutRef.current) {
+        clearTimeout(typingTimeoutRef.current);
+      }
+      // Không ngắt kết nối socket để duy trì kết nối liên tục
+    };
+  }, [user]);
   // Lắng nghe tin nhắn mới và trạng thái đã đọc khi mở modal
   useEffect(() => {
     if (!user?._id || !isOpen || !chatData?.conversation?._id) return;
@@ -68,36 +78,30 @@ const ContactSellerModal = ({ isOpen, onClose, shoppInfo, product }) => {
     const sellerId = shoppInfo?.seller;
     const conversationId = chatData.conversation._id;
 
-    // Đăng ký lắng nghe tin nhắn mới
-    const unsubscribeMessages = subscribeToMessages(user._id, (data) => {
-      if (data.conversation === conversationId) {
-        // Cập nhật UI với tin nhắn mới
-        handleNewMessageReceived(data.message);
-      }
-    });
+  // Đăng ký lắng nghe tin nhắn mới
+  const unsubscribeMessages = subscribeToMessages(user._id, (data) => {
+    if (data.conversation === conversationId) {
+      handleNewMessageReceived(data.message);
+    }
+  });
 
-    // Đăng ký lắng nghe trạng thái đã đọc
-    const unsubscribeReadReceipts = subscribeToReadReceipts(
-      user._id,
-      (data) => {
-        if (data.conversationId === conversationId) {
-          // Cập nhật UI với trạng thái đã đọc
-          updateMessageStatus(data.readBy);
-        }
-      }
-    );
+  // Đăng ký lắng nghe trạng thái đã đọc
+  const unsubscribeReadReceipts = subscribeToReadReceipts(user._id, (data) => {
+    if (data.conversationId === conversationId) {
+      updateMessageStatus(data.readBy);
+    }
+  });
+
+  // Đánh dấu tin nhắn đã đọc khi mở modal
+  markMessagesAsRead(conversationId, user._id);
 
     // Cleanup khi component unmount hoặc khi đóng modal
-    return () => {
-      unsubscribeMessages();
-      unsubscribeReadReceipts();
-    };
-  }, [user, isOpen, chatData]);
+
+  }, [user, isOpen,chatData]);
 
   // Xử lý khi nhận được tin nhắn mới từ socket
   const handleNewMessageReceived = (newMessage) => {
     if (!chatData) return;
-
     // Xác định ngày của tin nhắn
     const msgDate = new Date(newMessage.timestamp || newMessage.createdAt);
     const today = new Date();
@@ -260,7 +264,7 @@ const ContactSellerModal = ({ isOpen, onClose, shoppInfo, product }) => {
   useEffect(() => {
     const fetchChatHistory = async () => {
       if (!shoppInfo?.seller) return;
-
+  
       try {
         setLoading(true);
         const response = await getConversationDetailBuyer(shoppInfo.seller);
@@ -269,16 +273,22 @@ const ContactSellerModal = ({ isOpen, onClose, shoppInfo, product }) => {
         }
       } catch (err) {
         console.error("Error fetching chat history:", err);
-        // setError("Failed to load chat history. Please try again.");
+        setError("Failed to load chat history. Please try again.");
       } finally {
         setLoading(false);
       }
     };
-
+  
     if (isOpen) {
       fetchChatHistory();
+      // Cuộn xuống cuối khi mở modal
+      setTimeout(() => {
+        if (messageAreaRef.current) {
+          messageAreaRef.current.scrollTop = messageAreaRef.current.scrollHeight;
+        }
+      }, 200);
     }
-  }, [isOpen, shoppInfo]);
+  }, [isOpen, shoppInfo,user]);
 
   const handleImageUpload = (e) => {
     try {
@@ -364,7 +374,7 @@ const ContactSellerModal = ({ isOpen, onClose, shoppInfo, product }) => {
       setTimeout(() => setErrorUpload(null), 3000);
     }
   };
-  console.log(previewImages);
+
   const removeImage = (index) => {
     // Revoke object URL to prevent memory leaks
     URL.revokeObjectURL(previewImages[index].url);
@@ -564,34 +574,35 @@ const ContactSellerModal = ({ isOpen, onClose, shoppInfo, product }) => {
       const newImageMessages = [];
       // Lưu ý: ở đây chúng ta không thể có URL thật cho ảnh vì chưa upload
       // nhưng để hiển thị preview ngay, chúng ta có thể dùng URL tạm thời từ previewImages
-      newImageMessages.push({
-        _id: `temp-image-${Date.now()}-${Math.random()}`,
-        senderId: {
-          _id: user._id,
-          fullname: user.fullname,
-          avatar: user.avatar,
-        },
-        receiverId: shoppInfo?.seller,
-        // content không có vì đây là tin nhắn ảnh
-        imagesUrl: previewImages?.map((image) => image.url), // URL tạm thời để hiển thị preview
-        status: "sending",
-        conversationId: chatData?.conversation?._id,
-        timestamp: now.toISOString(),
-        createdAt: now.toISOString(),
-        updatedAt: now.toISOString(),
-        temporary: true, // Đánh dấu là tin nhắn tạm thời
-        productRef: product
-          ? {
-              productSnapshot: {
-                title: product.title,
-                price: product.price,
-                imageUrl: product.url,
-              },
-              productId: product._id,
-            }
-          : null,
-      });
-      console.log(newImageMessages);
+      if(selectedImages.length > 0) {
+        newImageMessages.push({
+          _id: `temp-image-${Date.now()}-${Math.random()}`,
+          senderId: {
+            _id: user._id,
+            fullname: user.fullname,
+            avatar: user.avatar,
+          },
+          receiverId: shoppInfo?.seller,
+          // content không có vì đây là tin nhắn ảnh
+          imagesUrl: previewImages?.map((image) => image.url), // URL tạm thời để hiển thị preview
+          status: "sending",
+          conversationId: chatData?.conversation?._id,
+          timestamp: now.toISOString(),
+          createdAt: now.toISOString(),
+          updatedAt: now.toISOString(),
+          temporary: true, // Đánh dấu là tin nhắn tạm thời
+          productRef: product
+            ? {
+                productSnapshot: {
+                  title: product.title,
+                  price: product.price,
+                  imageUrl: product.url,
+                },
+                productId: product._id,
+              }
+            : null,
+        });
+      }
       // Cập nhật UI trước khi gọi API
       const newMessage = message.trim() ? newMessageData : null;
 

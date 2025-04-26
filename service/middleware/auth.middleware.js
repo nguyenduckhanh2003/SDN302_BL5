@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
+const Store = require("../models/Store");
 const authenticate = async (req, res, next) => {
     try {
         const { accessToken } = req.cookies;
@@ -20,8 +21,20 @@ const authenticate = async (req, res, next) => {
                 message: "Không tìm thấy người dùng!"
             });
         }
+        if (user.role === "seller") {
+            const store = await Store.findOne({ seller: user._id });
 
-        req.user = user;
+            if (store) {
+                req.user = { ...user.toObject(), store };
+            } else {
+                return res.status(404).json({
+                    success: false,
+                    message: "Không tìm thấy cửa hàng của người bán!"
+                });
+            }
+        } else {
+            req.user = user;
+        }
         next();
     } catch (err) {
         console.log(err);

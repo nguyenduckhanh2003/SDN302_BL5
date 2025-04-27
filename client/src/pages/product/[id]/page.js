@@ -25,6 +25,7 @@ import { getProductsById } from "../../../apis/product/product";
 import ContactSellerModal from "./ContactSellerModal";
 import { useSelector } from "react-redux";
 import { Button, Modal, Space } from "antd";
+import FeedbackPage from "../../feedback/page";
 
 // StarRating component
 const StarRating = ({ rating }) => {
@@ -527,9 +528,7 @@ export default function ProductDetail() {
                       {detail?.storeId?.positiveRate?.toFixed(1) || "0"}%
                       Positive feedback
                     </div>
-                    <button className="text-xs text-[#0053A0] hover:underline block mt-3">
-                      See other items
-                    </button>
+                    <FeedbackPage storeId={detail?.storeId?._id} />
                   </div>
                 </div>
               </div>

@@ -593,6 +593,16 @@ const OrderList = () => {
               Processing ({tabCount("processing")})
             </button>
             <button
+              onClick={() => setActiveTab("shipped")}
+              className={`px-4 py-2 text-sm font-medium rounded-md ${
+                activeTab === "processing"
+                  ? "bg-blue-600 text-white"
+                  : "text-gray-700 hover:bg-gray-100"
+              }`}
+            >
+              Shipped ({tabCount("shipped")})
+            </button>
+            <button
               onClick={() => setActiveTab("delivered")}
               className={`px-4 py-2 text-sm font-medium rounded-md ${
                 activeTab === "delivered"

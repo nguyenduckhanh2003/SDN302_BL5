@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "67ffca8dc765204176cadd65"
+  },
+  "name": "Books",
+  "description": "Fiction, non-fiction, and educational books"
+},
+{
+  "_id": {
+    "$oid": "67ffca8dc765204176cadd66"
+  },
+  "name": "Sports",
+  "description": "Sports equipment and fitness gear"
+},
+{
+  "_id": {
+    "$oid": "67ffca8dc765204176cadd62"
+  },
+  "name": "Electronics",
+  "description": "Electronic devices and gadgets"
+},
+{
+  "_id": {
+    "$oid": "67ffca8dc765204176cadd63"
+  },
+  "name": "Clothing",
+  "description": "Men's and women's apparel"
+},
+{
+  "_id": {
+    "$oid": "67ffca8dc765204176cadd64"
+  },
+  "name": "Home & Kitchen",
+  "description": "Home appliances and kitchen supplies"
+}]

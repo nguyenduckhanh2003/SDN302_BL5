@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "participants": [
+    {
+      "$oid": "67ff5812c765204176cadcd4"
+    },
+    {
+      "$oid": "67fe659c5f71eb22ebb6d9dc"
+    }
+  ],
+  "products": [
+    {
+      "productId": {
+        "$oid": "67ffcce4c765204176cadd71"
+      },
+      "addedAt": {
+        "$date": "2025-04-22T14:24:41.412Z"
+      },
+      "_id": {
+        "$oid": "6807a6a9311856cbf2423825"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "67ffcce4c765204176cadd72"
+      },
+      "addedAt": {
+        "$date": "2025-04-24T13:21:23.424Z"
+      },
+      "_id": {
+        "$oid": "680a3ad30f2e94335d5a6fe7"
+      }
+    }
+  ],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-04-22T14:24:41.416Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T16:02:40.843Z"
+  },
+  "__v": 0,
+  "lastMessage": {
+    "$oid": "680d03a06f0c7028cc7b088f"
+  }
+},
+{
+  "_id": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "participants": [
+    {
+      "$oid": "680b7360893e53123997ba9d"
+    },
+    {
+      "$oid": "67fe659c5f71eb22ebb6d9dc"
+    }
+  ],
+  "products": [
+    {
+      "productId": {
+        "$oid": "67ffcce4c765204176cadd70"
+      },
+      "addedAt": {
+        "$date": "2025-04-25T17:23:25.754Z"
+      },
+      "_id": {
+        "$oid": "680bc50dcc56e007cdf33260"
+      }
+    }
+  ],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-04-25T17:23:25.763Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:14:12.439Z"
+  },
+  "__v": 0,
+  "lastMessage": {
+    "$oid": "680bd0f45453c7b8e98437b4"
+  }
+},
+{
+  "_id": {
+    "$oid": "680d9696509ba7dfd73546b2"
+  },
+  "participants": [
+    {
+      "$oid": "680c365f893e53123997bbaa"
+    },
+    {
+      "$oid": "67fe659c5f71eb22ebb6d9dc"
+    }
+  ],
+  "products": [
+    {
+      "productId": {
+        "$oid": "67ffcce4c765204176cadd71"
+      },
+      "addedAt": {
+        "$date": "2025-04-27T02:29:42.639Z"
+      },
+      "_id": {
+        "$oid": "680d9696509ba7dfd73546b3"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "67ffcce4c765204176cadd70"
+      },
+      "addedAt": {
+        "$date": "2025-04-27T08:08:47.970Z"
+      },
+      "_id": {
+        "$oid": "680de60f06b2b1df82627930"
+      }
+    }
+  ],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-04-27T02:29:42.647Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-27T08:08:48.062Z"
+  },
+  "__v": 0,
+  "lastMessage": {
+    "$oid": "680de61006b2b1df82627932"
+  }
+}]

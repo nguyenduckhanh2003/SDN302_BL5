@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "680c3320d55bfde6afbeb95e"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "userId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "rating": 4,
+  "comment": "Nice Product By The Way, I Will Visit the store and buy it next Time 5 *",
+  "createdAt": {
+    "$date": "2025-04-26T01:13:04.975Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T01:13:04.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680c3334d55bfde6afbeb972"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "userId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "rating": 4,
+  "comment": "Shop Uy Tín Chất Lượng",
+  "createdAt": {
+    "$date": "2025-04-26T01:13:24.958Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T01:13:24.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680c350ba62a4987a525f6f2"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "userId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "rating": 5,
+  "comment": "Sản Phẩm dùng chất Lượng mặc dù hơi đắt chút",
+  "createdAt": {
+    "$date": "2025-04-26T01:21:15.382Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T01:21:15.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680c43fb45d78cc8e018e68d"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6d"
+  },
+  "userId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "rating": 1,
+  "comment": "Sản Phẩm quá tệ không đúng với mô tả",
+  "createdAt": {
+    "$date": "2025-04-26T02:24:59.795Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T02:24:59.795Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d0208641631072685e08a"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "userId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "rating": 4,
+  "comment": "ahihi",
+  "hasEdited": false,
+  "createdAt": {
+    "$date": "2025-04-26T15:55:52.006Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T15:55:52.006Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d024d641631072685e08c"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "userId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "rating": 4,
+  "comment": "312312",
+  "hasEdited": false,
+  "createdAt": {
+    "$date": "2025-04-26T15:57:01.876Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T15:57:01.876Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d04442dbc1ae6302eea6b"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "userId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "rating": 1,
+  "comment": "",
+  "createdAt": {
+    "$date": "2025-04-26T16:05:24.592Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T16:05:24.592Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d1af69caaf73794b8e3a1"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6e"
+  },
+  "userId": {
+    "$oid": "680c365f893e53123997bbaa"
+  },
+  "rating": 4,
+  "comment": "Thái đánh giá",
+  "createdAt": {
+    "$date": "2025-04-26T17:42:14.456Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T17:42:14.456Z"
+  },
+  "__v": 0
+}]

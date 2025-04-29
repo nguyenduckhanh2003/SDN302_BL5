@@ -1,0 +1,1766 @@
+[{
+  "_id": {
+    "$oid": "680bc50dcc56e007cdf33262"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "hiện",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:23:25.795Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:23:25.796Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:23:46.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc51dcc56e007cdf33271"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "oek",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:23:41.598Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:23:41.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:23:46.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc527cc56e007cdf3328f"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "sao bạn",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:23:51.070Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:23:51.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:24:06.642Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc53acc56e007cdf332a2"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "mé",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:24:10.762Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:24:10.763Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:26:13.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc56bcc56e007cdf332a8"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:24:59.262Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:24:59.263Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:26:13.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc5bbcc56e007cdf332bc"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "oek chưa",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:26:19.404Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:26:19.404Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:28:46.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc5e1cc56e007cdf332c4"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "hí",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:26:57.954Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:26:57.955Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:28:46.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc5ffcc56e007cdf332ce"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "oke",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:27:27.198Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:27:27.199Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:28:46.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc634cc56e007cdf332dd"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "Bạn đang trao đổi với Người mua về sản phẩm này",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:28:20.541Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:28:20.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:28:46.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc654cc56e007cdf332f1"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "Đc kh",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:28:52.520Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:28:52.521Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:30:06.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc667cc56e007cdf332fc"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "oơ",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:29:11.435Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:29:11.435Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:30:06.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bc6e8cc56e007cdf33340"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "aăn đi",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:31:20.210Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:31:20.211Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:47:59.798Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcae75453c7b8e984325e"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "oke",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:48:23.142Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:48:23.144Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:50:07.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcb005453c7b8e9843267"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:48:48.494Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:48:48.495Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:48:49.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcb065453c7b8e9843277"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:48:54.822Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:48:54.822Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:50:07.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcb0d5453c7b8e984327e"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "hih",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:49:01.722Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:49:01.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:50:07.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcb5a5453c7b8e984328f"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:50:18.191Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:50:18.191Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:50:41.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcb655453c7b8e9843299"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:50:29.714Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:50:29.714Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:50:41.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcb7f5453c7b8e98432b0"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "thế nào được",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:50:55.545Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:50:55.545Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:51:08.461Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcb945453c7b8e98432e1"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:51:16.081Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:51:16.081Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:51:59.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcbc65453c7b8e98432f5"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "sad",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:52:06.408Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:52:06.409Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:53:01.301Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcbda5453c7b8e98432fc"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745603544/messages/general/488922622_1266522331503915_4440728604477339561_n-1745603544122-350015749.jpg"
+  ],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:52:26.925Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:52:26.926Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:53:01.301Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcc065453c7b8e984330d"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "sd",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:53:10.221Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:53:10.221Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:53:30.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcc245453c7b8e9843330"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "hay",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:53:40.572Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:53:40.572Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:53:41.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcc285453c7b8e9843340"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "cay",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:53:44.450Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:53:44.450Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:54:58.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcc305453c7b8e9843347"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "lại kh nhận",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:53:52.392Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:53:52.393Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:54:58.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bccac5453c7b8e9843365"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "được chưa",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:55:56.072Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:55:56.073Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:56:19.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bccc75453c7b8e9843378"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "soa",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:56:23.287Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:56:23.287Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:56:24.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcccb5453c7b8e9843388"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "nahạn đi",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:56:27.771Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:56:27.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:59:12.515Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcd7a5453c7b8e98433af"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:59:22.469Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:59:22.469Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:59:39.369Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcd825453c7b8e98433b9"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "nhận chưa",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:59:30.282Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:59:30.282Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:59:39.369Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcd905453c7b8e98433f2"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "nhận đi mà",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T17:59:44.026Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T17:59:44.027Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T17:59:45.494Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcdc75453c7b8e9843402"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:00:39.398Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:00:39.398Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:01:03.808Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcdce5453c7b8e984340e"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "nhận đi",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:00:46.225Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:00:46.225Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:00:47.507Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcde55453c7b8e9843430"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "lạ vậy",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:01:09.023Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:01:09.024Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:01:10.262Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcdfb5453c7b8e984345a"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:01:31.960Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:01:31.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:02:37.264Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bce005453c7b8e9843463"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "mé",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:01:36.902Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:01:36.902Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:01:38.132Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bce0b5453c7b8e9843473"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "được chưa",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:01:47.895Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:01:47.895Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:02:37.264Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bce6f5453c7b8e98434a1"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:03:27.900Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:03:27.900Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:03:49.444Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcecb5453c7b8e98434c5"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "he",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:04:59.043Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:04:59.043Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:10:13.229Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bced05453c7b8e98434d7"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "me",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:05:04.839Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:05:04.839Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:05:06.057Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcee15453c7b8e98434fb"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745604316/messages/general/491848167_1274110867411728_7924206160293417428_n-1745604315712-689417175.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745604317/messages/general/491913211_1274110227411792_7354047216528026213_n-1745604317138-18821827.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745604318/messages/general/491915212_1274110454078436_7437363230258038681_n-1745604318292-907581373.jpg"
+  ],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:05:21.139Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:05:21.140Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:05:22.379Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcf545453c7b8e9843594"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:07:16.227Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:07:16.227Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:07:17.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcf775453c7b8e98435db"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "đẹp trai",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:07:51.642Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:07:51.642Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:07:53.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcf975453c7b8e9843629"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "đwược",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:08:23.221Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:08:23.222Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:10:13.229Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bcffa5453c7b8e984369b"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "1234",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:10:02.273Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:10:02.273Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:10:12.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bd0395453c7b8e98436cf"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "content": "why",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:11:05.261Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:11:05.262Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:13:14.346Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bd0675453c7b8e9843704"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:11:51.116Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:11:51.117Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:11:52.622Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bd0c35453c7b8e9843759"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745604800/messages/general/491727122_1274110670745081_2869922849769216170_n-1745604798801-757100484.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745604801/messages/general/491848167_1274110867411728_7924206160293417428_n-1745604800248-86039692.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745604802/messages/general/491788614_1274111057411709_652565958993013544_n-1745604801398-997642178.jpg"
+  ],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:13:23.826Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:13:23.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:13:28.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680bd0f45453c7b8e98437b4"
+  },
+  "senderId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745604851/messages/general/rapper_mck_voi_hinh_xam_moi_khang_dinh_la_chien_binh_full_giap_bape_khi_mac_ca_quan_nhoc_hang_nay_1039-1745604850174-917556645.jpg"
+  ],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680bc50dcc56e007cdf3325f"
+  },
+  "timestamp": {
+    "$date": "2025-04-25T18:14:12.405Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-25T18:14:12.405Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T18:14:16.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680cee2e2213527e666567fb"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "á",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd71"
+    },
+    "productSnapshot": {
+      "title": "Wireless Earbuds Pro",
+      "price": 149.99,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510544cv12d.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "timestamp": {
+    "$date": "2025-04-26T14:31:10.982Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-26T14:31:10.984Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T15:05:19.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680cf615f20e9302d7898f42"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "timestamp": {
+    "$date": "2025-04-26T15:04:53.956Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-26T15:04:53.959Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T15:05:19.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680cf633f20e9302d7898f78"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "oke",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "timestamp": {
+    "$date": "2025-04-26T15:05:23.258Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-26T15:05:23.259Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T15:05:24.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d03a06f0c7028cc7b088f"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "aaaa",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "timestamp": {
+    "$date": "2025-04-26T16:02:40.810Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-26T16:02:40.812Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-27T02:30:12.333Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d9696509ba7dfd73546b5"
+  },
+  "senderId": {
+    "$oid": "680c365f893e53123997bbaa"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "Hello",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd71"
+    },
+    "productSnapshot": {
+      "title": "Wireless Earbuds Pro",
+      "price": 149.99,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510544cv12d.jpg"
+    }
+  },
+  "status": "read",
+  "conversationId": {
+    "$oid": "680d9696509ba7dfd73546b2"
+  },
+  "timestamp": {
+    "$date": "2025-04-27T02:29:42.681Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-27T02:29:42.682Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-27T02:29:54.998Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d96b2509ba7dfd73546e1"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "680c365f893e53123997bbaa"
+  },
+  "content": "Hi what do you like to ask about the product ?",
+  "imagesUrl": [],
+  "productRef": null,
+  "status": "read",
+  "conversationId": {
+    "$oid": "680d9696509ba7dfd73546b2"
+  },
+  "timestamp": {
+    "$date": "2025-04-27T02:30:10.272Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-27T02:30:10.272Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-27T02:43:34.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680de61006b2b1df82627932"
+  },
+  "senderId": {
+    "$oid": "680c365f893e53123997bbaa"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "Hello",
+  "imagesUrl": [],
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd70"
+    },
+    "productSnapshot": {
+      "title": "Smartphone X12",
+      "price": 899.99,
+      "imageUrl": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg"
+    }
+  },
+  "status": "sent",
+  "conversationId": {
+    "$oid": "680d9696509ba7dfd73546b2"
+  },
+  "timestamp": {
+    "$date": "2025-04-27T08:08:48.019Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-27T08:08:48.026Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-27T08:08:48.026Z"
+  },
+  "__v": 0
+}]

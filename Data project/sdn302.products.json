@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "67ffcce4c765204176cadd71"
+  },
+  "title": "Wireless Earbuds Pro",
+  "description": "Noise-cancelling wireless earbuds with long battery life",
+  "price": 149.99,
+  "categoryId": {
+    "$oid": "67ffca8dc765204176cadd63"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510544cv12d.jpg",
+  "status": "available",
+  "quantity": 100,
+  "isAuction": false,
+  "createdAt": "2025-01-20T00:00:00.000Z",
+  "updatedAt": {
+    "$date": "2025-04-25T13:28:29.375Z"
+  },
+  "totalReviews": [
+    {
+      "$oid": "6807d8c502ca5d03586709c1"
+    },
+    {
+      "$oid": "680b8dfd8a5366c0b2b68645"
+    }
+  ],
+  "averageRating": 4.7
+},
+{
+  "_id": {
+    "$oid": "67ffcce4c765204176cadd72"
+  },
+  "title": "Designer Denim Jacket",
+  "description": "Premium quality denim jacket for all seasons",
+  "price": 79.99,
+  "categoryId": {
+    "$oid": "67ffca8dc765204176cadd62"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6d"
+  },
+  "url": "https://th.bing.com/th/id/OIP._nfFn7tyRvyS1z4uIT-w2QHaJ4?rs=1&pid=ImgDetMain",
+  "status": "available",
+  "quantity": 35,
+  "isAuction": false,
+  "createdAt": "2025-02-10T00:00:00.000Z",
+  "updatedAt": "2025-02-10T00:00:00.000Z",
+  "totalReviews": [],
+  "averageRating": 0
+},
+{
+  "_id": {
+    "$oid": "67ffcce4c765204176cadd70"
+  },
+  "title": "Smartphone X12",
+  "description": "Latest smartphone with 5G capabilities and triple camera",
+  "price": 899.99,
+  "categoryId": {
+    "$oid": "67ffca8dc765204176cadd62"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "url": "https://cdn.tgdd.vn/ValueIcons/iphone.jpg",
+  "status": "available",
+  "quantity": 50,
+  "isAuction": false,
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": {
+    "$date": "2025-04-27T08:18:45.142Z"
+  },
+  "totalReviews": [
+    {
+      "$oid": "680b6da0a6a2c2e1a4cf325f"
+    },
+    {
+      "$oid": "680cee502213527e66656813"
+    },
+    {
+      "$oid": "680de86506b2b1df826279e4"
+    }
+  ],
+  "averageRating": 4.67
+},
+{
+  "_id": {
+    "$oid": "680c3b0c893e53123997bbb1"
+  },
+  "title": "Robot Vacuum Cleaner",
+  "description": "The Most Intelligent Robot For Your House, With The Smart Chip and Detect for objects it clean your House In just a seconds",
+  "price": 599.99,
+  "categoryId": {
+    "$oid": "67ffca8dc765204176cadd62"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6e"
+  },
+  "url": "https://assets.eko.com/image/91e69b50-c0f3-11ef-a2f9-055765126d23/0?startOffset=0&width=768",
+  "status": "available",
+  "quantity": 50,
+  "isAuction": false,
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": {
+    "$date": "2025-04-25T11:10:24.875Z"
+  },
+  "totalReviews": [],
+  "averageRating": 0
+}]

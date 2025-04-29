@@ -1,0 +1,6180 @@
+[{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1934"
+  },
+  "originalId": {
+    "$oid": "6807a6a9311856cbf2423827"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alô",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd71"
+    },
+    "productSnapshot": {
+      "title": "Wireless Earbuds Pro",
+      "price": 149.99,
+      "imageUrl": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:90/plain/https://cellphones.com.vn/media/wysiwyg/mobile/dien-thoai-9.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-22T14:24:41.452Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-22T14:25:04.559Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.125Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1935"
+  },
+  "originalId": {
+    "$oid": "6807a6be311856cbf2423838"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745331901/messages/general/488922622_1266522331503915_4440728604477339561_n-1745331899662-92846268.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745331901/messages/general/489294453_1266522171503931_1790403438824388444_n-1745331899669-509736519.jpg"
+  ],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd71"
+    },
+    "productSnapshot": {
+      "title": "Wireless Earbuds Pro",
+      "price": 149.99,
+      "imageUrl": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:90/plain/https://cellphones.com.vn/media/wysiwyg/mobile/dien-thoai-9.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-22T14:25:02.494Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-22T14:25:04.559Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.125Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1936"
+  },
+  "originalId": {
+    "$oid": "6807a6c5311856cbf2423857"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "lo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd71"
+    },
+    "productSnapshot": {
+      "title": "Wireless Earbuds Pro",
+      "price": 149.99,
+      "imageUrl": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:90/plain/https://cellphones.com.vn/media/wysiwyg/mobile/dien-thoai-9.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-22T14:25:09.167Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-22T14:25:09.376Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.125Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1937"
+  },
+  "originalId": {
+    "$oid": "6807a6dc311856cbf242388d"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "sad",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-22T14:25:32.120Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-22T14:25:32.301Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1938"
+  },
+  "originalId": {
+    "$oid": "6807a6e9311856cbf24238a1"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-22T14:25:45.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-22T14:25:45.521Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1939"
+  },
+  "originalId": {
+    "$oid": "6807a6f0311856cbf24238b7"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-22T14:25:52.961Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-22T14:25:57.210Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd193a"
+  },
+  "originalId": {
+    "$oid": "6807a77e311856cbf24238db"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745332093/messages/general/488922622_1266522331503915_4440728604477339561_n-1745332091408-949114132.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745332093/messages/general/489294453_1266522171503931_1790403438824388444_n-1745332091415-933784917.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745332093/messages/general/489405828_1266521928170622_8580088114515669976_n-1745332091418-786796669.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745332093/messages/general/489831250_1266522041503944_8817288628182548769_n-1745332092178-329591804.jpg"
+  ],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-22T14:28:14.481Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-22T14:28:14.575Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd193b"
+  },
+  "originalId": {
+    "$oid": "680a38680f2e94335d5a6f2e"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:11:04.188Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:11:08.222Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd193c"
+  },
+  "originalId": {
+    "$oid": "680a39290f2e94335d5a6f4a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:14:17.824Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:14:45.180Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd193d"
+  },
+  "originalId": {
+    "$oid": "680a39610f2e94335d5a6f66"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "oke",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:15:13.375Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:15:14.678Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd193e"
+  },
+  "originalId": {
+    "$oid": "680a39740f2e94335d5a6f77"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:15:32.238Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:15:33.531Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd193f"
+  },
+  "originalId": {
+    "$oid": "680a3ad30f2e94335d5a6fe9"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd72"
+    },
+    "productSnapshot": {
+      "title": "Designer Denim Jacket",
+      "price": 79.99,
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/332234/realme-c75-8gb-128gb-thumb-1-600x600.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-24T13:21:23.475Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:21:24.855Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1940"
+  },
+  "originalId": {
+    "$oid": "680a3af00f2e94335d5a6fff"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "lạ",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd72"
+    },
+    "productSnapshot": {
+      "title": "Designer Denim Jacket",
+      "price": 79.99,
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/332234/realme-c75-8gb-128gb-thumb-1-600x600.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-24T13:21:52.057Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:21:53.167Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1941"
+  },
+  "originalId": {
+    "$oid": "680a3af40f2e94335d5a7012"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "vãi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:21:56.949Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:35:23.043Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1942"
+  },
+  "originalId": {
+    "$oid": "680a3b050f2e94335d5a701a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:22:13.721Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:35:23.043Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1943"
+  },
+  "originalId": {
+    "$oid": "680a3b190f2e94335d5a7025"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ùa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:22:33.513Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:35:23.043Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1944"
+  },
+  "originalId": {
+    "$oid": "680a3b320f2e94335d5a7030"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:22:58.450Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:35:23.043Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1945"
+  },
+  "originalId": {
+    "$oid": "680a40c37eb53940e9505247"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "ơi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd72"
+    },
+    "productSnapshot": {
+      "title": "Designer Denim Jacket",
+      "price": 79.99,
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/332234/realme-c75-8gb-128gb-thumb-1-600x600.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-24T13:46:43.228Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:46:44.333Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1946"
+  },
+  "originalId": {
+    "$oid": "680a40ce7eb53940e950525d"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "o",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd72"
+    },
+    "productSnapshot": {
+      "title": "Designer Denim Jacket",
+      "price": 79.99,
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/332234/realme-c75-8gb-128gb-thumb-1-600x600.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-24T13:46:54.175Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:46:55.269Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1947"
+  },
+  "originalId": {
+    "$oid": "680a40d37eb53940e9505273"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "w",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd72"
+    },
+    "productSnapshot": {
+      "title": "Designer Denim Jacket",
+      "price": 79.99,
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/332234/realme-c75-8gb-128gb-thumb-1-600x600.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-24T13:46:59.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:47:00.280Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1948"
+  },
+  "originalId": {
+    "$oid": "680a412d7eb53940e9505286"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:48:29.193Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:49:39.560Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1949"
+  },
+  "originalId": {
+    "$oid": "680a41477eb53940e9505296"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:48:55.081Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:49:39.560Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd194a"
+  },
+  "originalId": {
+    "$oid": "680a415c7eb53940e95052a6"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "helllo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:49:16.842Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:49:39.560Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd194b"
+  },
+  "originalId": {
+    "$oid": "680a420d784b132719125897"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd72"
+    },
+    "productSnapshot": {
+      "title": "Designer Denim Jacket",
+      "price": 79.99,
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/332234/realme-c75-8gb-128gb-thumb-1-600x600.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-24T13:52:13.978Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:52:15.082Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd194c"
+  },
+  "originalId": {
+    "$oid": "680a4218784b1327191258ad"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745502743/messages/general/491788614_1274111057411709_652565958993013544_n-1745502741446-5906023.jpg"
+  ],
+  "status": "read",
+  "productRef": {
+    "productId": {
+      "$oid": "67ffcce4c765204176cadd72"
+    },
+    "productSnapshot": {
+      "title": "Designer Denim Jacket",
+      "price": 79.99,
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/42/332234/realme-c75-8gb-128gb-thumb-1-600x600.jpg"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-04-24T13:52:24.705Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:52:25.808Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd194d"
+  },
+  "originalId": {
+    "$oid": "680a421d784b1327191258c0"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:52:29.195Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:57:17.038Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd194e"
+  },
+  "originalId": {
+    "$oid": "680a4252784b1327191258d1"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:53:22.333Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:57:17.038Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd194f"
+  },
+  "originalId": {
+    "$oid": "680a4278784b1327191258e2"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "e",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:54:00.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:57:17.038Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1950"
+  },
+  "originalId": {
+    "$oid": "680a4306784b132719125905"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:56:22.506Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:57:17.038Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1951"
+  },
+  "originalId": {
+    "$oid": "680a430f784b132719125910"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hihi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:56:31.078Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:57:17.038Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1952"
+  },
+  "originalId": {
+    "$oid": "680a4369784b13271912596a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:58:01.936Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:58:03.290Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1953"
+  },
+  "originalId": {
+    "$oid": "680a4372784b13271912597d"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:58:10.063Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:58:11.312Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1954"
+  },
+  "originalId": {
+    "$oid": "680a437a784b13271912598b"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:58:18.539Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:58:20.742Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1955"
+  },
+  "originalId": {
+    "$oid": "680a43c8f5e67b9428cb66ea"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T13:59:36.075Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T13:59:45.107Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1956"
+  },
+  "originalId": {
+    "$oid": "680a43e1f5e67b9428cb671a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "nhắn lâu thế",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T14:00:01.206Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T14:00:02.527Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1957"
+  },
+  "originalId": {
+    "$oid": "680a4483f5e67b9428cb67cf"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "Lạ vậy",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T14:02:43.085Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T14:02:44.329Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b9e3852b2378a90fd1958"
+  },
+  "originalId": {
+    "$oid": "680a4631f5e67b9428cb683c"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "???",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T14:09:53.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:06:49.920Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-25T14:37:44.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff2b"
+  },
+  "originalId": {
+    "$oid": "680a93b58ed313b1f6847933"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hả",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T19:40:37.231Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:06:49.920Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.043Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff2c"
+  },
+  "originalId": {
+    "$oid": "680a95ea55aed751edf79328"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ok",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T19:50:02.425Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:06:49.920Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff2d"
+  },
+  "originalId": {
+    "$oid": "680a99bf55aed751edf795fd"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:06:23.720Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:06:49.920Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff2e"
+  },
+  "originalId": {
+    "$oid": "680a99c355aed751edf79604"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hả",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:06:27.978Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:06:49.920Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff2f"
+  },
+  "originalId": {
+    "$oid": "680a99dc55aed751edf79633"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:06:52.665Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:06:54.203Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff30"
+  },
+  "originalId": {
+    "$oid": "680a9aa855aed751edf796c7"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:10:16.567Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:10:50.307Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff31"
+  },
+  "originalId": {
+    "$oid": "680a9ade55aed751edf79732"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:11:10.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:11:12.231Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff32"
+  },
+  "originalId": {
+    "$oid": "680a9ae255aed751edf79742"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:11:14.863Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:11:16.404Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff33"
+  },
+  "originalId": {
+    "$oid": "680a9b2155aed751edf79771"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "hả",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:12:17.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:22:59.417Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff34"
+  },
+  "originalId": {
+    "$oid": "680a9daa55aed751edf797a7"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745526185/messages/general/491727122_1274110670745081_2869922849769216170_n-1745526183399-901782382.jpg"
+  ],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:23:06.292Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:23:32.673Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff35"
+  },
+  "originalId": {
+    "$oid": "680a9e0455aed751edf797e5"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alll",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:24:36.951Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:24:38.236Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff36"
+  },
+  "originalId": {
+    "$oid": "680a9fcfc3bece8d3e0fce3a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "allo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:32:15.086Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:32:16.598Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff37"
+  },
+  "originalId": {
+    "$oid": "680aa03661e9e05b8531c3ee"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hihih",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:33:58.699Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:34:00.006Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff38"
+  },
+  "originalId": {
+    "$oid": "680aa09861e9e05b8531c41a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:35:36.547Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:35:59.263Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff39"
+  },
+  "originalId": {
+    "$oid": "680aa0e26c1c3b136c25cfd6"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "Aloooo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:36:50.282Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:36:51.755Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff3a"
+  },
+  "originalId": {
+    "$oid": "680aa12d6c1c3b136c25d00e"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "helllo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:38:05.488Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:38:06.991Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff3b"
+  },
+  "originalId": {
+    "$oid": "680aa1b5168db6a5c185b036"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "aloô",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:40:21.163Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:40:22.671Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff3c"
+  },
+  "originalId": {
+    "$oid": "680aa23934be58738db1770e"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hả",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:42:33.643Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:42:34.485Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff3d"
+  },
+  "originalId": {
+    "$oid": "680aa2c4d9845518d4fde365"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "aloooo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:44:52.749Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:44:53.601Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff3e"
+  },
+  "originalId": {
+    "$oid": "680aa41c201f28dc14e6e1d7"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hú",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:50:36.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:51:34.550Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff3f"
+  },
+  "originalId": {
+    "$oid": "680aa480b513062580a166c4"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:52:16.645Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:52:17.670Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff40"
+  },
+  "originalId": {
+    "$oid": "680aa4a5ad00f1ceaabed2f4"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hellô",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:52:53.540Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:52:54.352Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff41"
+  },
+  "originalId": {
+    "$oid": "680aa4e45d9eedd994e0410a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hihi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:53:56.736Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:53:57.788Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff42"
+  },
+  "originalId": {
+    "$oid": "680aa505ebac95f7b524cf90"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:54:29.268Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:54:30.288Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff43"
+  },
+  "originalId": {
+    "$oid": "680aa5636b2e83b77f3063dc"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "tao là ai",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:56:03.974Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:56:05.524Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff44"
+  },
+  "originalId": {
+    "$oid": "680aa6176b2e83b77f3063ea"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:59:03.976Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:59:05.006Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff45"
+  },
+  "originalId": {
+    "$oid": "680aa64cb726bbbfd0ad5611"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hả",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T20:59:56.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T20:59:58.538Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff46"
+  },
+  "originalId": {
+    "$oid": "680aa6c1286b8db7ba1f0b2b"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "ơi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T21:01:53.575Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T21:01:56.442Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff47"
+  },
+  "originalId": {
+    "$oid": "680aa6df286b8db7ba1f0b9b"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hú",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T21:02:23.080Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T21:02:24.334Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff48"
+  },
+  "originalId": {
+    "$oid": "680aa707286b8db7ba1f0c15"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "mẹ",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-24T21:03:03.680Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-24T21:03:05.007Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff49"
+  },
+  "originalId": {
+    "$oid": "680b5ee0c785bd5d75812c87"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:07:28.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:12:13.623Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff4a"
+  },
+  "originalId": {
+    "$oid": "680b5f3b154bb305f1cfe033"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:08:59.615Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:12:13.623Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff4b"
+  },
+  "originalId": {
+    "$oid": "680b603de9f69401f03dfa20"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "hú",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:13:17.867Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:13:19.331Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff4c"
+  },
+  "originalId": {
+    "$oid": "680b606de9f69401f03dfa35"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:14:05.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:14:07.190Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff4d"
+  },
+  "originalId": {
+    "$oid": "680b60fb67fa802c369f3efe"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:16:27.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:16:29.160Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff4e"
+  },
+  "originalId": {
+    "$oid": "680b60fd67fa802c369f3f03"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:16:27.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:16:29.160Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff4f"
+  },
+  "originalId": {
+    "$oid": "680b61b567fa802c369f3f39"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:19:33.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:19:34.863Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff50"
+  },
+  "originalId": {
+    "$oid": "680b61b667fa802c369f3f3e"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:19:33.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:19:34.863Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff51"
+  },
+  "originalId": {
+    "$oid": "680b62c6af1979a57052521f"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:24:06.526Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:26:42.249Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff52"
+  },
+  "originalId": {
+    "$oid": "680b636061a64f8ef4461cda"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:26:40.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:26:42.249Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff53"
+  },
+  "originalId": {
+    "$oid": "680b636261a64f8ef4461cdf"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:26:40.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:26:42.249Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff54"
+  },
+  "originalId": {
+    "$oid": "680b63e561a64f8ef4461d2d"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:28:53.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:28:55.473Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff55"
+  },
+  "originalId": {
+    "$oid": "680b63e761a64f8ef4461d32"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:28:53.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:28:55.473Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff56"
+  },
+  "originalId": {
+    "$oid": "680b6428bc106150f0f85c68"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hay",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:30:00.164Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:31:16.177Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff57"
+  },
+  "originalId": {
+    "$oid": "680b644e8e3c2223bbb5fc58"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:30:38.691Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:31:16.177Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff58"
+  },
+  "originalId": {
+    "$oid": "680b64725807bd6ccab6a265"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:31:14.457Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:31:16.177Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff59"
+  },
+  "originalId": {
+    "$oid": "680b6494a3287477b66b971a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:31:48.349Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:31:50.010Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff5a"
+  },
+  "originalId": {
+    "$oid": "680b64bfa3287477b66b972f"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:32:31.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff5b"
+  },
+  "originalId": {
+    "$oid": "680b654fa3287477b66b975f"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:34:55.451Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff5c"
+  },
+  "originalId": {
+    "$oid": "680b659aa3287477b66b977b"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hú",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:36:10.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff5d"
+  },
+  "originalId": {
+    "$oid": "680b6601a3287477b66b9797"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:37:53.720Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff5e"
+  },
+  "originalId": {
+    "$oid": "680b6623a3287477b66b97ad"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "húi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:38:27.021Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff5f"
+  },
+  "originalId": {
+    "$oid": "680b6685a3287477b66b97cf"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hú",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:40:05.053Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff60"
+  },
+  "originalId": {
+    "$oid": "680b66d9a3287477b66b9820"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "maã hóa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:41:29.785Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff61"
+  },
+  "originalId": {
+    "$oid": "680b6710a4f75ab4a8f8f9dd"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:42:24.829Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff62"
+  },
+  "originalId": {
+    "$oid": "680b677714c2fdcae09296eb"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hihi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:44:07.863Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff63"
+  },
+  "originalId": {
+    "$oid": "680b67c314c2fdcae092970e"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:45:23.877Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:25.924Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff64"
+  },
+  "originalId": {
+    "$oid": "680b67ce14c2fdcae092972e"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hú",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:45:34.482Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:45:36.010Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff65"
+  },
+  "originalId": {
+    "$oid": "680b680414c2fdcae0929778"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "huynh",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:46:28.523Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:46:30.051Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff66"
+  },
+  "originalId": {
+    "$oid": "680b685014c2fdcae09297c9"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:47:44.533Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:47:45.975Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff67"
+  },
+  "originalId": {
+    "$oid": "680b686414c2fdcae09297e5"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:48:04.557Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:50:14.946Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff68"
+  },
+  "originalId": {
+    "$oid": "680b688114c2fdcae09297fb"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:48:33.937Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:50:14.946Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff69"
+  },
+  "originalId": {
+    "$oid": "680b68af14c2fdcae0929803"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:49:19.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:50:14.946Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff6a"
+  },
+  "originalId": {
+    "$oid": "680b68e56395e75278983318"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:50:13.434Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:50:14.946Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff6b"
+  },
+  "originalId": {
+    "$oid": "680b69059e214874015fc513"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "đc chưa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:50:45.643Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:53:21.026Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff6c"
+  },
+  "originalId": {
+    "$oid": "680b6935c6b7f57a8c27d0f5"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "oke r đấy",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:51:33.499Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:53:21.026Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff6d"
+  },
+  "originalId": {
+    "$oid": "680b699f70eece31a7e052de"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:53:19.618Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:53:21.026Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff6e"
+  },
+  "originalId": {
+    "$oid": "680b69e0611db828fc9c9bac"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "Nhận đi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T10:54:24.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T10:54:25.807Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff6f"
+  },
+  "originalId": {
+    "$oid": "680b779f611db828fc9c9be3"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T11:53:03.732Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:14:34.195Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff70"
+  },
+  "originalId": {
+    "$oid": "680b7e08611db828fc9c9c15"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:20:24.568Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:32:46.329Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff71"
+  },
+  "originalId": {
+    "$oid": "680b7e90611db828fc9c9c30"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:22:40.671Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:32:46.329Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff72"
+  },
+  "originalId": {
+    "$oid": "680b7ead611db828fc9c9c43"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:23:09.671Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:32:46.329Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff73"
+  },
+  "originalId": {
+    "$oid": "680b7f7d611db828fc9c9c69"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:26:37.410Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:32:46.329Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff74"
+  },
+  "originalId": {
+    "$oid": "680b80f2a72e7e2c7d3b1a12"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hú",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:32:50.878Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:32:52.267Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff75"
+  },
+  "originalId": {
+    "$oid": "680b812b3ec66a92a8f2fb35"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:33:47.924Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff76"
+  },
+  "originalId": {
+    "$oid": "680b81ebc5926001dafe0cc9"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:36:59.175Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff77"
+  },
+  "originalId": {
+    "$oid": "680b8267aac4a5778ad3122a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:39:03.660Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff78"
+  },
+  "originalId": {
+    "$oid": "680b828c72b80aa162eb711e"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ý",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:39:40.572Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff79"
+  },
+  "originalId": {
+    "$oid": "680b82d772b80aa162eb715d"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "aloô",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:40:55.027Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff7a"
+  },
+  "originalId": {
+    "$oid": "680b82fc72b80aa162eb7179"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:41:32.407Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff7b"
+  },
+  "originalId": {
+    "$oid": "680b832cfa60e63c6cab026a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:42:20.685Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff7c"
+  },
+  "originalId": {
+    "$oid": "680b833ffa60e63c6cab0273"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "helllo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:42:39.947Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff7d"
+  },
+  "originalId": {
+    "$oid": "680b837afa60e63c6cab0290"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "helllo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:43:38.360Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff7e"
+  },
+  "originalId": {
+    "$oid": "680b83b4fa60e63c6cab02ac"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:44:36.393Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff7f"
+  },
+  "originalId": {
+    "$oid": "680b83f4fa60e63c6cab02c8"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:45:40.454Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:52:37.397Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff80"
+  },
+  "originalId": {
+    "$oid": "680b85c5fa60e63c6cab0333"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:53:25.527Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:53:26.933Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff81"
+  },
+  "originalId": {
+    "$oid": "680b8666493db54c972fa710"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hay",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:56:06.749Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T12:57:17.466Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff82"
+  },
+  "originalId": {
+    "$oid": "680b874c151077f4827b4865"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "cay",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T12:59:56.062Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:00:14.828Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff83"
+  },
+  "originalId": {
+    "$oid": "680b8757151077f4827b486c"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:00:07.307Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:00:14.828Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.054Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff84"
+  },
+  "originalId": {
+    "$oid": "680b8762151077f4827b488c"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:00:18.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:01:13.306Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.054Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff85"
+  },
+  "originalId": {
+    "$oid": "680b8797caf254bb90002301"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:01:11.603Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:01:13.306Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.054Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff86"
+  },
+  "originalId": {
+    "$oid": "680b87a7caf254bb90002310"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:01:27.932Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.054Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff87"
+  },
+  "originalId": {
+    "$oid": "680b8814caf254bb90002345"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:03:16.524Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.054Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff88"
+  },
+  "originalId": {
+    "$oid": "680b88cecaf254bb90002384"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "sao vậy",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:06:22.991Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.054Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff89"
+  },
+  "originalId": {
+    "$oid": "680b896acaf254bb900023b9"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:08:58.750Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.054Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff8a"
+  },
+  "originalId": {
+    "$oid": "680b8a4ccaf254bb90002405"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:12:44.101Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.054Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff8b"
+  },
+  "originalId": {
+    "$oid": "680b8a9ccaf254bb90002442"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:14:04.854Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff8c"
+  },
+  "originalId": {
+    "$oid": "680b8ae4caf254bb90002476"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:15:16.736Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff8d"
+  },
+  "originalId": {
+    "$oid": "680b8af1caf254bb9000247f"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hihi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:15:29.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff8e"
+  },
+  "originalId": {
+    "$oid": "680b8b84971042e54a3ef0e3"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:17:56.481Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff8f"
+  },
+  "originalId": {
+    "$oid": "680b8bc83341e32fb5737eed"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "helllo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:19:04.927Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff90"
+  },
+  "originalId": {
+    "$oid": "680b8bd7d3c1abf4cbbf6812"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hello",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:19:19.928Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:19:29.156Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff91"
+  },
+  "originalId": {
+    "$oid": "680b8c07d3c1abf4cbbf687a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:20:07.882Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:20:56.835Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff92"
+  },
+  "originalId": {
+    "$oid": "680b8c3cd3c1abf4cbbf68c1"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:21:00.692Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:21:02.069Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff93"
+  },
+  "originalId": {
+    "$oid": "680b8c6fd3c1abf4cbbf68e8"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "huynh",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:21:51.017Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:21:52.395Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff94"
+  },
+  "originalId": {
+    "$oid": "680b8c91d3c1abf4cbbf691c"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "oi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:22:25.468Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:23:30.698Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff95"
+  },
+  "originalId": {
+    "$oid": "680b8cabd3c1abf4cbbf6933"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "iwu",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T13:22:51.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:23:30.698Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff96"
+  },
+  "originalId": {
+    "$oid": "680b993932bf83788dc38714"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hihi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T14:16:25.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T14:17:16.951Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff97"
+  },
+  "originalId": {
+    "$oid": "680b997332bf83788dc38771"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "mé",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T14:17:23.145Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T14:17:24.638Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff98"
+  },
+  "originalId": {
+    "$oid": "680ba4a2312f5b9e69af9b8a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T15:05:06.111Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T15:05:07.570Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff99"
+  },
+  "originalId": {
+    "$oid": "680ba4b0312f5b9e69af9bbf"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T15:05:20.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T15:05:25.501Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff9a"
+  },
+  "originalId": {
+    "$oid": "680ba4db011f7e3d375409ae"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T15:06:03.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T15:06:06.946Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff9b"
+  },
+  "originalId": {
+    "$oid": "680bb4d622f4d3dfbdcea121"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "hú",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:14:14.319Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:23:18.766Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff9c"
+  },
+  "originalId": {
+    "$oid": "680bb6f96cef9faa23ddd0c1"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:23:21.414Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:23:22.919Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff9d"
+  },
+  "originalId": {
+    "$oid": "680bb72b6cef9faa23ddd0d1"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "ơi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:24:11.006Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:24:12.299Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff9e"
+  },
+  "originalId": {
+    "$oid": "680bb7306cef9faa23ddd0e4"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:24:16.730Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:24:17.943Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ff9f"
+  },
+  "originalId": {
+    "$oid": "680bb74e6cef9faa23ddd0fe"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "hí",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:24:46.474Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:25:45.426Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa0"
+  },
+  "originalId": {
+    "$oid": "680bb78b6cef9faa23ddd121"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "oơi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:25:47.969Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:25:49.470Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa1"
+  },
+  "originalId": {
+    "$oid": "680bb7d16cef9faa23ddd13b"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "ơi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:26:57.655Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:28:19.057Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa2"
+  },
+  "originalId": {
+    "$oid": "680bb7f26cef9faa23ddd144"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "mẹ",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:27:30.398Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:28:19.057Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa3"
+  },
+  "originalId": {
+    "$oid": "680bb8146cef9faa23ddd157"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:28:04.570Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:28:19.057Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa4"
+  },
+  "originalId": {
+    "$oid": "680bb8266cef9faa23ddd17a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "oke",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:28:22.572Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:28:24.084Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa5"
+  },
+  "originalId": {
+    "$oid": "680bb8416cef9faa23ddd19b"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:28:49.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:28:50.983Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa6"
+  },
+  "originalId": {
+    "$oid": "680bb84c6cef9faa23ddd1c9"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "được chưa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:29:00.930Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:29:02.447Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa7"
+  },
+  "originalId": {
+    "$oid": "680bb8726cef9faa23ddd220"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "ơi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:29:38.457Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:30:47.972Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa8"
+  },
+  "originalId": {
+    "$oid": "680bb8ae6cef9faa23ddd250"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:30:38.574Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:30:47.972Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffa9"
+  },
+  "originalId": {
+    "$oid": "680bb8b66cef9faa23ddd259"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "oke chưa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:30:46.666Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:30:47.972Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffaa"
+  },
+  "originalId": {
+    "$oid": "680bb8d66cef9faa23ddd2e4"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745598674/messages/general/488922622_1266522331503915_4440728604477339561_n-1745598674013-727809930.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745598675/messages/general/489294453_1266522171503931_1790403438824388444_n-1745598675454-83681995.jpg"
+  ],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:31:18.151Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:31:19.648Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffab"
+  },
+  "originalId": {
+    "$oid": "680bb9196cef9faa23ddd34a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:32:25.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:32:27.488Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffac"
+  },
+  "originalId": {
+    "$oid": "680bb9bf6cef9faa23ddd395"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "helloo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:35:11.034Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:35:25.262Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffad"
+  },
+  "originalId": {
+    "$oid": "680bb9d16cef9faa23ddd3bb"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "haha",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:35:29.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:35:31.323Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffae"
+  },
+  "originalId": {
+    "$oid": "680bb9ef9403d1e212b5719d"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "haha",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:35:59.847Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:36:01.372Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffaf"
+  },
+  "originalId": {
+    "$oid": "680bb9f39403d1e212b571b3"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "hihi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:36:03.916Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:36:05.140Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb0"
+  },
+  "originalId": {
+    "$oid": "680bba249403d1e212b571e9"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "he",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:36:52.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:36:53.742Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb1"
+  },
+  "originalId": {
+    "$oid": "680bba419403d1e212b571ff"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "imagesUrl": [
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745599037/messages/general/OIP-1745599037740-678865124.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745599038/messages/general/491727122_1274110670745081_2869922849769216170_n-1745599037740-319870625.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745599039/messages/general/491788614_1274111057411709_652565958993013544_n-1745599039184-716849720.jpg",
+    "https://res.cloudinary.com/dvuewre1p/image/upload/v1745599039/messages/general/491720549_1274110564078425_7728333337313022337_n-1745599040351-546245507.jpg"
+  ],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:37:21.822Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:37:23.070Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb2"
+  },
+  "originalId": {
+    "$oid": "680bbaee9403d1e212b57277"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hay",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:40:14.014Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:40:22.878Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb3"
+  },
+  "originalId": {
+    "$oid": "680bbafa9403d1e212b572a8"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "lạ vãi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:40:26.240Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:40:27.779Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb4"
+  },
+  "originalId": {
+    "$oid": "680bbb009403d1e212b572c3"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "lạ gì",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:40:32.855Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:41:22.040Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb5"
+  },
+  "originalId": {
+    "$oid": "680bbb299403d1e212b572d2"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:41:13.507Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:41:22.040Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb6"
+  },
+  "originalId": {
+    "$oid": "680bbb349403d1e212b57303"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "oke",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:41:24.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:41:26.120Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb7"
+  },
+  "originalId": {
+    "$oid": "680bbb7b9403d1e212b57340"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "ơ kìa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:42:35.272Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:42:36.781Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb8"
+  },
+  "originalId": {
+    "$oid": "680bbb809403d1e212b57354"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "kh được à",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:42:40.669Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:42:41.820Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffb9"
+  },
+  "originalId": {
+    "$oid": "680bbbac9403d1e212b5737c"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:43:24.680Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:43:26.112Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffba"
+  },
+  "originalId": {
+    "$oid": "680bbbb49403d1e212b57391"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "oơi",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:43:32.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:43:36.374Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffbb"
+  },
+  "originalId": {
+    "$oid": "680bbc009403d1e212b5740a"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "iwu",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:44:48.617Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:44:50.136Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffbc"
+  },
+  "originalId": {
+    "$oid": "680bbc6f9403d1e212b5749c"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "alo",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:46:39.361Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:46:40.913Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffbd"
+  },
+  "originalId": {
+    "$oid": "680bbc7c9403d1e212b574b2"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "ủa",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:46:52.267Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:46:53.514Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffbe"
+  },
+  "originalId": {
+    "$oid": "680bbc7f9403d1e212b574c6"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:46:55.992Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:46:57.150Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffbf"
+  },
+  "originalId": {
+    "$oid": "680bbc8b9403d1e212b574d6"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "hí",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:47:07.103Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:47:08.333Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc0"
+  },
+  "originalId": {
+    "$oid": "680bbcb49403d1e212b57504"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:47:48.452Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:47:49.883Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc1"
+  },
+  "originalId": {
+    "$oid": "680bbcb99403d1e212b57514"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "ê",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:47:53.465Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:47:54.705Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc2"
+  },
+  "originalId": {
+    "$oid": "680bbcfd9403d1e212b57558"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:49:01.915Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:49:03.333Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc3"
+  },
+  "originalId": {
+    "$oid": "680bbd019403d1e212b57568"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "sao gì",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:49:05.995Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:49:07.237Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc4"
+  },
+  "originalId": {
+    "$oid": "680bbd079403d1e212b5757c"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "hả",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:49:11.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:49:12.653Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc5"
+  },
+  "originalId": {
+    "$oid": "680bbd2f9403d1e212b5759f"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "gì",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:49:51.534Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:49:52.759Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc6"
+  },
+  "originalId": {
+    "$oid": "680bbd9f9403d1e212b575c6"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "sai",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:51:43.855Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:51:45.033Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc7"
+  },
+  "originalId": {
+    "$oid": "680bbda29403d1e212b575d6"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "sao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:51:46.288Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:51:47.533Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc8"
+  },
+  "originalId": {
+    "$oid": "680bbda69403d1e212b575ea"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "receiverId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "content": "not sai",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:51:50.077Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:51:51.238Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680fb411f092c3b6f2d8ffc9"
+  },
+  "originalId": {
+    "$oid": "680bbdaa9403d1e212b575fa"
+  },
+  "conversationId": {
+    "$oid": "6807a6a9311856cbf2423824"
+  },
+  "senderId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "receiverId": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "content": "kệ tao",
+  "imagesUrl": [],
+  "status": "read",
+  "productRef": null,
+  "createdAt": {
+    "$date": "2025-04-25T16:51:54.651Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T16:51:55.896Z"
+  },
+  "__v": 0,
+  "archivedAt": {
+    "$date": "2025-04-28T17:00:01.060Z"
+  }
+}]

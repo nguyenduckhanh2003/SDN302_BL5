@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "6810645b893e53123997c0a0"
+  },
+  "orderId": {
+    "$oid": "65f5d7c8a1b2c3d4e5f6a7b8"
+  },
+  "userId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "storeId": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "reason": "delayed_delivery",
+  "description": "Giao hàng trễ 5 ngày",
+  "status": "open"
+}]

@@ -1,0 +1,102 @@
+[{
+  "_id": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "email": "user1@gmail.com",
+  "password": "123123",
+  "fullname": "John Smiths",
+  "address": {
+    "street": "123 Main St",
+    "zipcode": "12345",
+    "city": "New York",
+    "country": "United States"
+  },
+  "role": "seller",
+  "action": "unlock",
+  "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/640px-User_icon_2.svg.png"
+},
+{
+  "_id": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "email": "user2@gmail.com",
+  "password": "123",
+  "fullname": "Jane Doe",
+  "address": {
+    "street": "Wall Street",
+    "zipcode": "12345",
+    "city": "New York",
+    "country": "United States"
+  },
+  "role": "buyer",
+  "action": "unlock",
+  "avatar": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740"
+},
+{
+  "_id": {
+    "$oid": "67ff5852c765204176cadcd5"
+  },
+  "email": "admin@gmail.com",
+  "password": "123",
+  "fullname": "DONALD TRUMP",
+  "address": {
+    "street": "WHITE HOUSE",
+    "zipcode": "12345",
+    "city": "New York",
+    "country": "United States"
+  },
+  "role": "admin",
+  "action": "unlock",
+  "avatar": "https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg"
+},
+{
+  "_id": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "email": "user3@gmail.com",
+  "password": "123",
+  "fullname": "Joe Biden",
+  "address": {
+    "street": "White House",
+    "zipcode": "12345",
+    "city": "New York",
+    "country": "United States"
+  },
+  "role": "buyer",
+  "action": "unlock",
+  "avatar": "https://static.vecteezy.com/system/resources/thumbnails/036/151/783/small_2x/illustration-cartoon-of-a-cute-boy-standing-and-smiling-in-colorful-and-casual-clothes-vector.jpg"
+},
+{
+  "_id": {
+    "$oid": "680c365f893e53123997bbaa"
+  },
+  "email": "user4@gmail.com",
+  "password": "123",
+  "fullname": "Elon Musk",
+  "address": {
+    "street": "SpaceX",
+    "zipcode": "12345",
+    "city": "New York",
+    "country": "United States"
+  },
+  "role": "buyer",
+  "action": "unlock",
+  "avatar": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740"
+},
+{
+  "_id": {
+    "$oid": "680de7fe893e53123997be53"
+  },
+  "email": "user5@gmail.com",
+  "password": "123",
+  "fullname": "Nguyễn Xuân Phúc",
+  "address": {
+    "street": "SpaceX",
+    "zipcode": "12345",
+    "city": "New York",
+    "country": "United States"
+  },
+  "role": "buyer",
+  "action": "unlock",
+  "avatar": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740"
+}]

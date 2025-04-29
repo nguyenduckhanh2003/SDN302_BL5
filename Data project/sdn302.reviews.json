@@ -1,0 +1,115 @@
+[{
+  "_id": {
+    "$oid": "6807d8c502ca5d03586709c1"
+  },
+  "productId": {
+    "$oid": "67ffcce4c765204176cadd71"
+  },
+  "userId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "orderId": {
+    "$oid": "65f5d7c8a1b2c3d4e5f6a7b8"
+  },
+  "rating": 4.4,
+  "comment": "Sản phẩm rất tốt, giao hàng nhanh!",
+  "createdAt": {
+    "$date": "2025-04-22T17:58:29.717Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-22T17:58:29.717Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680b6da0a6a2c2e1a4cf325f"
+  },
+  "productId": {
+    "$oid": "67ffcce4c765204176cadd70"
+  },
+  "userId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "orderId": {
+    "$oid": "6800cb17b96018e23e6e7e3d"
+  },
+  "rating": 4,
+  "comment": "Sản Phẩm Phù Hợp Với Giá Cả Thị Trường",
+  "createdAt": {
+    "$date": "2025-04-25T11:10:24.796Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T11:10:24.796Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680b8dfd8a5366c0b2b68645"
+  },
+  "productId": {
+    "$oid": "67ffcce4c765204176cadd71"
+  },
+  "userId": {
+    "$oid": "680b7360893e53123997ba9d"
+  },
+  "orderId": {
+    "$oid": "680b73dd893e53123997ba9f"
+  },
+  "rating": 5,
+  "comment": "Chuẩn, Đẹp, Có Tính Thẩm Mỹ Cao, Sẽ Mua Tiếp lần sau",
+  "createdAt": {
+    "$date": "2025-04-25T13:28:29.275Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-25T13:28:29.275Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680cee502213527e66656813"
+  },
+  "productId": {
+    "$oid": "67ffcce4c765204176cadd70"
+  },
+  "userId": {
+    "$oid": "67ff5812c765204176cadcd4"
+  },
+  "orderId": {
+    "$oid": "65f5d7c8a1b2c3d4e5f6a7b8"
+  },
+  "rating": 5,
+  "comment": "á áasasasas ",
+  "createdAt": {
+    "$date": "2025-04-26T14:31:44.880Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-26T14:31:44.880Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680de86506b2b1df826279e4"
+  },
+  "productId": {
+    "$oid": "67ffcce4c765204176cadd70"
+  },
+  "userId": {
+    "$oid": "680de7fe893e53123997be53"
+  },
+  "orderId": {
+    "$oid": "680de846893e53123997be54"
+  },
+  "rating": 5,
+  "comment": "Tuyệt , Phúc Đánh Giá",
+  "createdAt": {
+    "$date": "2025-04-27T08:18:45.082Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-27T08:18:45.082Z"
+  },
+  "__v": 0
+}]

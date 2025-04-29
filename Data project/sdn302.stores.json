@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "67ffcbf8c765204176cadd6c"
+  },
+  "seller": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "storeName": "TechHub",
+  "description": "Premium electronics and gadgets store",
+  "bannerImageURL": "https://cdn-new.topcv.vn/unsafe/https://static.topcv.vn/company_logos/OTlFp8ZkRHqUYwn6Bz0Q5gzPI5nHBHwg_1711361669____071ce0e7bcf762e8e55a793359910e42.png",
+  "positiveRate": 83.3,
+  "totalReviews": 6,
+  "averageRating": 3.6666666666666665,
+  "__v": 1,
+  "feedbacks": [
+    {
+      "$oid": "680d04442dbc1ae6302eea6b"
+    }
+  ],
+  "updatedAt": {
+    "$date": "2025-04-26T16:05:24.768Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ffcbf8c765204176cadd6e"
+  },
+  "seller": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "storeName": "HomeEssentials",
+  "description": "Everything you need for your home",
+  "bannerImageURL": "https://example.com/images/homeessentials-banner.jpg",
+  "positiveRate": 100,
+  "averageRating": 4,
+  "totalReviews": 1,
+  "__v": 1,
+  "feedbacks": [
+    {
+      "$oid": "680d1af69caaf73794b8e3a1"
+    }
+  ],
+  "updatedAt": {
+    "$date": "2025-04-26T17:42:14.871Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ffcbf8c765204176cadd6d"
+  },
+  "seller": {
+    "$oid": "67fe659c5f71eb22ebb6d9dc"
+  },
+  "storeName": "FashionFusion",
+  "description": "Trendy clothing and accessories",
+  "bannerImageURL": "https://example.com/images/fashionfusion-banner.jpg",
+  "positiveRate": 0,
+  "averageRating": 1,
+  "totalReviews": 1
+}]
